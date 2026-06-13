@@ -1,6 +1,9 @@
 {
   "site": "n2p1",
   "n_top": 100,
+  "n_placed": 80,
+  "n_unplaced_no_geocode": 0,
+  "n_unplaced_no_institution": 20,
   "unplaced": [
     "#23 Victor Volfson",
     "#26 Gareth A. Jones",
@@ -224,5 +227,9 @@
         "Florian Luca"
       ]
     }
-  ]
+  ],
+  "geocode_sources": {
+    "openalex": 19,
+    "legacy_gb_cache": 61
+  }
 }
