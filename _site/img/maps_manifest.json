@@ -1,11 +1,11 @@
 {
   "site": "n2p1",
   "n_top": 100,
-  "n_placed": 78,
-  "n_unplaced_no_geocode": 0,
-  "n_unplaced_no_institution": 22,
+  "n_placed": 80,
+  "n_unplaced_no_geocode": 1,
+  "n_unplaced_no_institution": 19,
   "unplaced": [
-    "#15 Yingchun Cai",
+    "#26 Wu, Jie [Institut Elie Cartan de Lorraine, CNRS]",
     "#23 Victor Volfson",
     "#25 Gareth A. Jones",
     "#29 Mollin, Richard A.",
@@ -16,7 +16,6 @@
     "#63 Hinz, Jürgen G.",
     "#64 Pan, Chengdong",
     "#65 Kan, Jiahai",
-    "#77 Min Zhang",
     "#78 Levin, B. V.",
     "#79 Salerno, S.",
     "#88 Timofeev, N. M.",
@@ -25,14 +24,13 @@
     "#92 De Koninck, J.-M.",
     "#96 Sivaraman, Jyothsnaa",
     "#98 Warlimont, Richard",
-    "#99 Xianmeng Meng",
     "#100 Sarnak, Peter"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 78,
-      "drawn_count": 78,
+      "stated_count": 80,
+      "drawn_count": 80,
       "match": true,
       "names": [
         "Iwaniec, Henryk",
@@ -49,6 +47,7 @@
         "Will Sawin",
         "Motohashi, Y.",
         "Mark Shusterman",
+        "Yingchun Cai",
         "Ercan Altınışık",
         "Fouvry, Etienne",
         "Murat Demirbüken",
@@ -57,7 +56,6 @@
         "S.W. Drury",
         "Pintz, J.",
         "Elliott, P. D. T. A.",
-        "Wu, Jie",
         "Baker, R. C.",
         "Goldston, D. A.",
         "Tenenbaum, Gérald",
@@ -100,6 +98,7 @@
         "Hildebrand, Adolf",
         "Yıldırım, C. Y.",
         "Jinjiang Li",
+        "Min Zhang",
         "Coppola, Giovanni",
         "Filaseta, Michael",
         "Graham, S.",
@@ -112,9 +111,10 @@
         "Teräväinen, Joni",
         "Blomer, Valentin",
         "Vatwani, Akshaa",
-        "Schlage-Puchta, Jan-Christoph"
+        "Schlage-Puchta, Jan-Christoph",
+        "Xianmeng Meng"
       ],
-      "unplaced_no_geocode_in_region": 0
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "11_top100_north_america.png",
@@ -193,19 +193,19 @@
         "Blomer, Valentin",
         "Schlage-Puchta, Jan-Christoph"
       ],
-      "unplaced_no_geocode_in_region": 0
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 16,
-      "drawn_count": 16,
+      "stated_count": 18,
+      "drawn_count": 18,
       "match": true,
       "names": [
         "Apoloniusz Tyszka",
         "Min Sha",
         "Shparlinski, Igor E.",
         "Baier, Stephan",
-        "Wu, Jie",
+        "Yingchun Cai",
         "Jia, Chaohua",
         "Liangyi Zhao",
         "Lü, Guangshi",
@@ -213,10 +213,12 @@
         "Pan, Hao",
         "Jianya Liu",
         "Jinjiang Li",
+        "Min Zhang",
         "Zhai, Wenguang",
         "Xi, Ping",
         "Lu, Minggao",
-        "Vatwani, Akshaa"
+        "Vatwani, Akshaa",
+        "Xianmeng Meng"
       ],
       "unplaced_no_geocode_in_region": 0
     },
@@ -232,7 +234,7 @@
     }
   ],
   "geocode_sources": {
-    "openalex": 15,
+    "openalex": 17,
     "legacy_gb_cache": 63
   }
 }
