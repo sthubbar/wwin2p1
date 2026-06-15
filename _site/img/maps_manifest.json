@@ -1,39 +1,30 @@
 {
   "site": "n2p1",
   "n_top": 100,
-  "n_placed": 80,
-  "n_unplaced_no_geocode": 1,
-  "n_unplaced_no_institution": 19,
+  "n_placed": 88,
+  "n_unplaced_no_geocode": 12,
+  "n_unplaced_no_institution": 0,
   "unplaced": [
+    "#1 Iwaniec, Henryk [Rutgers University]",
+    "#23 Victor Volfson [-]",
     "#26 Wu, Jie [Institut Elie Cartan de Lorraine, CNRS]",
-    "#23 Victor Volfson",
-    "#25 Gareth A. Jones",
-    "#29 Mollin, Richard A.",
-    "#32 Runbo Li",
-    "#33 Alexander K. Zvonkin",
-    "#52 Wolke, Dieter",
-    "#62 Vakhitova, E. V.",
-    "#63 Hinz, Jürgen G.",
-    "#64 Pan, Chengdong",
-    "#65 Kan, Jiahai",
-    "#78 Levin, B. V.",
-    "#79 Salerno, S.",
-    "#88 Timofeev, N. M.",
-    "#89 Plaksin, V. A.",
-    "#90 Rieger, G. J.",
-    "#92 De Koninck, J.-M.",
-    "#96 Sivaraman, Jyothsnaa",
-    "#98 Warlimont, Richard",
-    "#100 Sarnak, Peter"
+    "#33 Alexander K. Zvonkin [Université de Bordeaux]",
+    "#52 Wolke, Dieter [University of Freiburg]",
+    "#62 Vakhitova, E. V. [-]",
+    "#65 Kan, Jiahai [Nanjing University of Posts and Telecommunications]",
+    "#77 Min Zhang [Beijing Information Science and Technology University]",
+    "#78 Levin, B. V. [-]",
+    "#88 Timofeev, N. M. [-]",
+    "#89 Plaksin, V. A. [-]",
+    "#96 Sivaraman, Jyothsnaa [Chennai Mathematical Institute]"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 80,
-      "drawn_count": 80,
+      "stated_count": 88,
+      "drawn_count": 88,
       "match": true,
       "names": [
-        "Iwaniec, Henryk",
         "Florian Luca",
         "Apoloniusz Tyszka",
         "Friedlander, John",
@@ -56,10 +47,13 @@
         "S.W. Drury",
         "Pintz, J.",
         "Elliott, P. D. T. A.",
+        "Gareth A. Jones",
         "Baker, R. C.",
         "Goldston, D. A.",
+        "Mollin, Richard A.",
         "Tenenbaum, Gérald",
         "Vaughan, R. C.",
+        "Runbo Li",
         "Maynard, James",
         "Ramaré, Olivier",
         "Jia, Chaohua",
@@ -87,6 +81,8 @@
         "Konyagin, Sergey",
         "Browning, T. D.",
         "Pan, Hao",
+        "Hinz, Jürgen G.",
+        "Pan, Chengdong",
         "Banks, William",
         "Balog, A.",
         "Jianya Liu",
@@ -98,7 +94,7 @@
         "Hildebrand, Adolf",
         "Yıldırım, C. Y.",
         "Jinjiang Li",
-        "Min Zhang",
+        "Salerno, S.",
         "Coppola, Giovanni",
         "Filaseta, Michael",
         "Graham, S.",
@@ -107,19 +103,23 @@
         "Xi, Ping",
         "Merikoski, Jori",
         "Alladi, Krishnaswami",
+        "Rieger, G. J.",
         "Lu, Minggao",
+        "De Koninck, J.-M.",
         "Teräväinen, Joni",
         "Blomer, Valentin",
         "Vatwani, Akshaa",
         "Schlage-Puchta, Jan-Christoph",
-        "Xianmeng Meng"
+        "Warlimont, Richard",
+        "Xianmeng Meng",
+        "Sarnak, Peter"
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 12
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 31,
-      "drawn_count": 31,
+      "stated_count": 35,
+      "drawn_count": 35,
       "match": true,
       "names": [
         "Friedlander, John",
@@ -132,7 +132,9 @@
         "Elliott, P. D. T. A.",
         "Baker, R. C.",
         "Goldston, D. A.",
+        "Mollin, Richard A.",
         "Vaughan, R. C.",
+        "Runbo Li",
         "Ford, Kevin",
         "Stephan Ramon Garcia",
         "Granville, Andrew",
@@ -152,17 +154,18 @@
         "Filaseta, Michael",
         "Graham, S.",
         "Soundararajan, K.",
-        "Alladi, Krishnaswami"
+        "Alladi, Krishnaswami",
+        "De Koninck, J.-M.",
+        "Sarnak, Peter"
       ],
-      "unplaced_no_geocode_in_region": 0
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 30,
-      "drawn_count": 30,
+      "stated_count": 34,
+      "drawn_count": 34,
       "match": true,
       "names": [
-        "Iwaniec, Henryk",
         "Heath-Brown, D. R.",
         "Harman, Glyn",
         "Motohashi, Y.",
@@ -171,6 +174,7 @@
         "Murat Demirbüken",
         "Efthymios Sofos",
         "Pintz, J.",
+        "Gareth A. Jones",
         "Tenenbaum, Gérald",
         "Maynard, James",
         "Ramaré, Olivier",
@@ -183,17 +187,21 @@
         "Tolev, D. I.",
         "Konyagin, Sergey",
         "Browning, T. D.",
+        "Hinz, Jürgen G.",
         "Balog, A.",
         "Dartyge, Cécile",
         "Helfgott, H. A.",
         "Yıldırım, C. Y.",
+        "Salerno, S.",
         "Coppola, Giovanni",
         "Merikoski, Jori",
+        "Rieger, G. J.",
         "Teräväinen, Joni",
         "Blomer, Valentin",
-        "Schlage-Puchta, Jan-Christoph"
+        "Schlage-Puchta, Jan-Christoph",
+        "Warlimont, Richard"
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 5
     },
     {
       "file": "13_top100_asia.png",
@@ -211,16 +219,16 @@
         "Lü, Guangshi",
         "Hongze Li",
         "Pan, Hao",
+        "Pan, Chengdong",
         "Jianya Liu",
         "Jinjiang Li",
-        "Min Zhang",
         "Zhai, Wenguang",
         "Xi, Ping",
         "Lu, Minggao",
         "Vatwani, Akshaa",
         "Xianmeng Meng"
       ],
-      "unplaced_no_geocode_in_region": 0
+      "unplaced_no_geocode_in_region": 3
     },
     {
       "file": "14_top100_other.png",
@@ -230,11 +238,11 @@
       "names": [
         "Florian Luca"
       ],
-      "unplaced_no_geocode_in_region": 0
+      "unplaced_no_geocode_in_region": 3
     }
   ],
   "geocode_sources": {
-    "openalex": 17,
-    "legacy_gb_cache": 63
+    "legacy_gb_cache": 69,
+    "openalex": 19
   }
 }
