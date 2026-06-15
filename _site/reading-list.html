@@ -63,6 +63,31 @@ $(document).ready(function() {
 });
 </script>
 
+<h2 style="margin-top:2em">Most cited (all time)</h2>
+<p>The ten most-cited Mathematics works on the n^2+1 prime conjecture, by citation count in OpenAlex.
+Results are filtered to the Mathematics field (OpenAlex field 26) and ranked by total citations.</p>
+
+<table id="mc" class="display compact stripe hover" style="width:100%">
+<thead><tr><th>#</th><th>Title</th><th>Authors</th><th>Year</th><th>Citations</th></tr></thead>
+<tbody>
+<tr><td style='text-align:center'>1</td><td><a href="https://doi.org/10.1007/bf01578070">Almost-primes represented by quadratic polynomials</a></td><td>Henryk Iwaniec</td><td>1978</td><td style='text-align:right'>136 citations</td></tr>
+<tr><td style='text-align:center'>2</td><td><a href="https://doi.org/10.4064/aa-24-5-435-459">Primes represented by quadratic polynomials in two variables</a></td><td>Henryk Iwaniec</td><td>1974</td><td style='text-align:right'>54 citations</td></tr>
+<tr><td style='text-align:center'>3</td><td><a href="https://doi.org/10.4064/aa123-2-2">Mean values of Dirichlet polynomials and applications to linear equations with prime variables</a></td><td>Stephen Choi; Angel Kumchev</td><td>2006</td><td style='text-align:right'>37 citations</td></tr>
+<tr><td style='text-align:center'>4</td><td><a href="https://doi.org/10.2307/2033065">A Report on Primes of the Form k⋅2 n + 1 and On Factors of Fermat Numbers</a></td><td>Raphael M. Robinson</td><td>1958</td><td style='text-align:right'>32 citations</td></tr>
+<tr><td style='text-align:center'>5</td><td><a href="https://doi.org/10.1090/pspum/008/0176966">Primes represented by irreducible polynomials in one variable</a></td><td>Paul T. Bateman; Roger A. Horn</td><td>1965</td><td style='text-align:right'>31 citations</td></tr>
+<tr><td style='text-align:center'>6</td><td><a href="https://doi.org/10.1090/s0025-5718-02-01418-7">New quadratic polynomials with high densities of prime values</a></td><td>Michael J. Jacobson; Hugh C. Williams</td><td>2002</td><td style='text-align:right'>29 citations</td></tr>
+<tr><td style='text-align:center'>7</td><td><a href="https://doi.org/10.1007/bf01404106">Primes are nonnegative values of a polynomial in 10 variables</a></td><td>Yu. V. Matijasevič</td><td>1981</td><td style='text-align:right'>27 citations</td></tr>
+<tr><td style='text-align:center'>8</td><td><a href="https://doi.org/10.1017/s0027763000001185">On prime valued polynomials and class numbers of real quadratic fields</a></td><td>R. A. Mollin; Hywel C Williams</td><td>1988</td><td style='text-align:right'>27 citations</td></tr>
+<tr><td style='text-align:center'>9</td><td><a href="https://doi.org/10.1023/a:1015237700066">Polynomial values free of large prime factors</a></td><td>Cécile Dartyge; Gérald Tenenbaum; Greg Martin</td><td>2002</td><td style='text-align:right'>24 citations</td></tr>
+<tr><td style='text-align:center'>10</td><td><a href="https://doi.org/10.1090/s0025-5718-1990-1023759-3">Quadratic polynomials which have a high density of prime values</a></td><td>Gilbert Fung; Hywel C Williams</td><td>1990</td><td style='text-align:right'>24 citations</td></tr>
+</tbody>
+</table>
+<script>
+$(document).ready(function() {
+  $('#mc').DataTable({ pageLength: 10, lengthMenu: [10, 25], order: [[4, 'desc']] });
+});
+</script>
+
 </main>
 <footer>
 <p>Maintained by Steve Hubbard (<a href="mailto:admin@wwin2p1.org">admin@wwin2p1.org</a>). Data sources: <a href="https://arxiv.org">arXiv</a>, <a href="https://openalex.org">OpenAlex</a>, <a href="https://zbmath.org">zbMATH Open</a>, <a href="https://www.mathgenealogy.org">Mathematics Genealogy Project</a>.</p>

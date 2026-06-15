@@ -51,7 +51,7 @@ rank,name,name_ascii,institution,country,arxiv_rank,openalex_rank,zbmath_rank,ar
 50,"Kowalski, Emmanuel","Kowalski, Emmanuel",CCI Reprographics (United States),US,,,41,1,,,,,,2000,2012,,,,
 51,"Kátai, I.","Katai, I.",Université Laval,CA,,,42,,,,,,,2007,2021,,,,
 52,"Brüdern, J.","Brudern, J.",University of Göttingen,DE,,,43,,,,,,,1991,2024,,,,
-53,"Kumchev, A.","Kumchev, A.",Towson University,US,,,44,,,,,,,2023,2023,,,,
+53,Angel Kumchev,Angel Kumchev,Towson University,US,,,44,,,,,12,openalex,2023,2023,,,,
 54,"Wolke, Dieter","Wolke, Dieter",,,,,45,,,,,,,,,,,,
 55,"Bombieri, E.","Bombieri, E.",Institute for Advanced Study,US,,,46,,,,,,,,,,,,
 56,"Li, Hongze","Li, Hongze",Sichuan University,CN,,,47,,,,,,,2014,2014,,,,
