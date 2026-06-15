@@ -11,9 +11,9 @@
     "#33 Alexander K. Zvonkin [Université de Bordeaux]",
     "#52 Wolke, Dieter [University of Freiburg]",
     "#62 Vakhitova, E. V. [-]",
-    "#65 Kan, Jiahai [Nanjing University of Posts and Telecommunications]",
-    "#77 Min Zhang [Beijing Information Science and Technology University]",
-    "#78 Levin, B. V. [-]",
+    "#64 Kan, Jiahai [Nanjing University of Posts and Telecommunications]",
+    "#76 Min Zhang [Beijing Information Science and Technology University]",
+    "#77 Levin, B. V. [-]",
     "#88 Timofeev, N. M. [-]",
     "#89 Plaksin, V. A. [-]",
     "#96 Sivaraman, Jyothsnaa [Chennai Mathematical Institute]"
@@ -82,7 +82,6 @@
         "Browning, T. D.",
         "Pan, Hao",
         "Hinz, Jürgen G.",
-        "Pan, Chengdong",
         "Banks, William",
         "Balog, A.",
         "Jianya Liu",
@@ -95,6 +94,7 @@
         "Yıldırım, C. Y.",
         "Jinjiang Li",
         "Salerno, S.",
+        "Pan, Chengdong",
         "Coppola, Giovanni",
         "Filaseta, Michael",
         "Graham, S.",
@@ -219,9 +219,9 @@
         "Lü, Guangshi",
         "Hongze Li",
         "Pan, Hao",
-        "Pan, Chengdong",
         "Jianya Liu",
         "Jinjiang Li",
+        "Pan, Chengdong",
         "Zhai, Wenguang",
         "Xi, Ping",
         "Lu, Minggao",
@@ -238,7 +238,7 @@
       "names": [
         "Florian Luca"
       ],
-      "unplaced_no_geocode_in_region": 3
+      "unplaced_no_geocode_in_region": 0
     }
   ],
   "geocode_sources": {
