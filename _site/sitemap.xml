@@ -43,7 +43,6 @@
   <url><loc>https://wwin2p1.org/people/elliott-p-d-t-a</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/elsholtz-christian</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/ercan-altnsk</loc><lastmod>2026-06-15</lastmod></url>
-  <url><loc>https://wwin2p1.org/people/erdos-paul</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/filaseta-michael</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/florian-luca</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/ford-kevin</loc><lastmod>2026-06-15</lastmod></url>
@@ -61,18 +60,19 @@
   <url><loc>https://wwin2p1.org/people/helfgott-h-a</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/hildebrand-adolf</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/hinz-jurgen-g</loc><lastmod>2026-06-15</lastmod></url>
+  <url><loc>https://wwin2p1.org/people/hongze-li</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/hooley-c</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/huafeng-liu</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/iwaniec-henryk</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/jia-chaohua</loc><lastmod>2026-06-15</lastmod></url>
+  <url><loc>https://wwin2p1.org/people/jinjiang-li</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/kan-jiahai</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/katai-i</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/kontorovich-alex-v</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/konyagin-sergey</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/kowalski-emmanuel</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/levin-b-v</loc><lastmod>2026-06-15</lastmod></url>
-  <url><loc>https://wwin2p1.org/people/li-hongze</loc><lastmod>2026-06-15</lastmod></url>
-  <url><loc>https://wwin2p1.org/people/li-jinjiang</loc><lastmod>2026-06-15</lastmod></url>
+  <url><loc>https://wwin2p1.org/people/liangyi-zhao</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/liu-jianya</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/liu-ming-chit</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/lu-guangshi</loc><lastmod>2026-06-15</lastmod></url>
@@ -92,6 +92,7 @@
   <url><loc>https://wwin2p1.org/people/murty-m-ram</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/pan-chengdong</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/pan-hao</loc><lastmod>2026-06-15</lastmod></url>
+  <url><loc>https://wwin2p1.org/people/paul-erdos</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/paul-pollack</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/peng-gao</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/peter-clive-sarnak</loc><lastmod>2026-06-15</lastmod></url>
@@ -126,7 +127,6 @@
   <url><loc>https://wwin2p1.org/people/vatwani-akshaa</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/vaughan-r-c</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/victor-volfson</loc><lastmod>2026-06-15</lastmod></url>
-  <url><loc>https://wwin2p1.org/people/wang-yuan</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/warlimont-richard</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/will-sawin</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/williams-h-c</loc><lastmod>2026-06-15</lastmod></url>
@@ -134,9 +134,10 @@
   <url><loc>https://wwin2p1.org/people/wu-jie</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/xi-ping</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/yldrm-c-y</loc><lastmod>2026-06-15</lastmod></url>
+  <url><loc>https://wwin2p1.org/people/yuan-wang</loc><lastmod>2026-06-15</lastmod></url>
+  <url><loc>https://wwin2p1.org/people/yuchao-wang</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/zhai-wenguang</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/people/zhang-min</loc><lastmod>2026-06-15</lastmod></url>
-  <url><loc>https://wwin2p1.org/people/zhao-liangyi</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/reading-list</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/regions/asia</loc><lastmod>2026-06-15</lastmod></url>
   <url><loc>https://wwin2p1.org/regions/europe</loc><lastmod>2026-06-15</lastmod></url>
