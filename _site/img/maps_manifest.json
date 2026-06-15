@@ -1,9 +1,9 @@
 {
   "site": "n2p1",
   "n_top": 100,
-  "n_placed": 81,
+  "n_placed": 80,
   "n_unplaced_no_geocode": 0,
-  "n_unplaced_no_institution": 19,
+  "n_unplaced_no_institution": 20,
   "unplaced": [
     "#23 Victor Volfson",
     "#25 Gareth A. Jones",
@@ -15,6 +15,7 @@
     "#63 Hinz, Jürgen G.",
     "#64 Pan, Chengdong",
     "#65 Kan, Jiahai",
+    "#77 Min Zhang",
     "#78 Levin, B. V.",
     "#79 Salerno, S.",
     "#88 Timofeev, N. M.",
@@ -28,8 +29,8 @@
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 81,
-      "drawn_count": 81,
+      "stated_count": 80,
+      "drawn_count": 80,
       "match": true,
       "names": [
         "Iwaniec, Henryk",
@@ -87,10 +88,9 @@
         "Konyagin, Sergey",
         "Browning, T. D.",
         "Pan, Hao",
-        "Zhang, Min",
-        "Liu, Jianya",
         "Banks, William",
         "Balog, A.",
+        "Jianya Liu",
         "Williams, H. C.",
         "Dartyge, Cécile",
         "Helfgott, H. A.",
@@ -118,8 +118,8 @@
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 32,
-      "drawn_count": 32,
+      "stated_count": 31,
+      "drawn_count": 31,
       "match": true,
       "names": [
         "Friedlander, John",
@@ -144,7 +144,6 @@
         "Bombieri, E.",
         "Montgomery, Hugh L.",
         "Cojocaru, Alina Carmen",
-        "Liu, Jianya",
         "Banks, William",
         "Williams, H. C.",
         "Kontorovich, Alex V.",
@@ -213,7 +212,7 @@
         "Lü, Guangshi",
         "Hongze Li",
         "Pan, Hao",
-        "Zhang, Min",
+        "Jianya Liu",
         "Jinjiang Li",
         "Zhai, Wenguang",
         "Xi, Ping",
@@ -235,7 +234,7 @@
     }
   ],
   "geocode_sources": {
-    "openalex": 19,
-    "legacy_gb_cache": 62
+    "openalex": 17,
+    "legacy_gb_cache": 63
   }
 }
