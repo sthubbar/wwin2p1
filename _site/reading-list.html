@@ -59,7 +59,7 @@
 </table>
 <script>
 $(document).ready(function() {
-  $('#rl').DataTable({ pageLength: 25, lengthMenu: [15, 25, 50], order: [[0, 'asc']] });
+  $('#rl').DataTable({ paging: false, info: false, lengthChange: false, searching: false, order: [[0, 'asc']] });
 });
 </script>
 
@@ -70,21 +70,21 @@ Results are filtered to the Mathematics field (OpenAlex field 26) and ranked by 
 <table id="mc" class="display compact stripe hover" style="width:100%">
 <thead><tr><th>#</th><th>Title</th><th>Authors</th><th>Year</th><th>Citations</th></tr></thead>
 <tbody>
-<tr><td style='text-align:center' data-order='1'>1</td><td><a href="https://doi.org/10.1007/bf01578070">Almost-primes represented by quadratic polynomials</a></td><td><a href="people/iwaniec-henryk.html"><strong>Henryk Iwaniec</strong></a></td><td>1978</td><td style='text-align:right' data-order='136'>136 citations</td></tr>
-<tr><td style='text-align:center' data-order='2'>2</td><td><a href="https://doi.org/10.4064/aa-24-5-435-459">Primes represented by quadratic polynomials in two variables</a></td><td><a href="people/iwaniec-henryk.html"><strong>Henryk Iwaniec</strong></a></td><td>1974</td><td style='text-align:right' data-order='54'>54 citations</td></tr>
-<tr><td style='text-align:center' data-order='3'>3</td><td><a href="https://doi.org/10.4064/aa123-2-2">Mean values of Dirichlet polynomials and applications to linear equations with prime variables</a></td><td>Stephen Choi; <a href="people/angel-kumchev.html"><strong>Angel Kumchev</strong></a></td><td>2006</td><td style='text-align:right' data-order='37'>37 citations</td></tr>
-<tr><td style='text-align:center' data-order='4'>4</td><td><a href="https://doi.org/10.2307/2033065">A Report on Primes of the Form k⋅2 n + 1 and On Factors of Fermat Numbers</a></td><td>Raphael M. Robinson</td><td>1958</td><td style='text-align:right' data-order='32'>32 citations</td></tr>
-<tr><td style='text-align:center' data-order='5'>5</td><td><a href="https://doi.org/10.1090/pspum/008/0176966">Primes represented by irreducible polynomials in one variable</a></td><td>Paul T. Bateman; Roger A. Horn</td><td>1965</td><td style='text-align:right' data-order='31'>31 citations</td></tr>
-<tr><td style='text-align:center' data-order='6'>6</td><td><a href="https://doi.org/10.1090/s0025-5718-02-01418-7">New quadratic polynomials with high densities of prime values</a></td><td>Michael J. Jacobson; <a href="people/williams-h-c.html"><strong>Hugh C. Williams</strong></a></td><td>2002</td><td style='text-align:right' data-order='29'>29 citations</td></tr>
-<tr><td style='text-align:center' data-order='7'>7</td><td><a href="https://doi.org/10.1007/bf01404106">Primes are nonnegative values of a polynomial in 10 variables</a></td><td>Yu. V. Matijasevič</td><td>1981</td><td style='text-align:right' data-order='27'>27 citations</td></tr>
-<tr><td style='text-align:center' data-order='8'>8</td><td><a href="https://doi.org/10.1017/s0027763000001185">On prime valued polynomials and class numbers of real quadratic fields</a></td><td><a href="people/mollin-richard-a.html"><strong>R. A. Mollin</strong></a>; <a href="people/williams-h-c.html"><strong>Hywel C Williams</strong></a></td><td>1988</td><td style='text-align:right' data-order='27'>27 citations</td></tr>
-<tr><td style='text-align:center' data-order='9'>9</td><td><a href="https://doi.org/10.1023/a:1015237700066">Polynomial values free of large prime factors</a></td><td><a href="people/dartyge-cecile.html"><strong>Cécile Dartyge</strong></a>; <a href="people/tenenbaum-gerald.html"><strong>Gérald Tenenbaum</strong></a>; Greg Martin</td><td>2002</td><td style='text-align:right' data-order='24'>24 citations</td></tr>
-<tr><td style='text-align:center' data-order='10'>10</td><td><a href="https://doi.org/10.1090/s0025-5718-1990-1023759-3">Quadratic polynomials which have a high density of prime values</a></td><td>Gilbert Fung; <a href="people/williams-h-c.html"><strong>Hywel C Williams</strong></a></td><td>1990</td><td style='text-align:right' data-order='24'>24 citations</td></tr>
+<tr><td style='text-align:center' data-order='1'>1</td><td><a href="https://doi.org/10.1007/bf01578070">Almost-primes represented by quadratic polynomials</a></td><td><a href="people/iwaniec-henryk.html"><strong>Henryk Iwaniec</strong></a></td><td>1978</td><td style='text-align:right' data-order='136'>136</td></tr>
+<tr><td style='text-align:center' data-order='2'>2</td><td><a href="https://doi.org/10.4064/aa-24-5-435-459">Primes represented by quadratic polynomials in two variables</a></td><td><a href="people/iwaniec-henryk.html"><strong>Henryk Iwaniec</strong></a></td><td>1974</td><td style='text-align:right' data-order='54'>54</td></tr>
+<tr><td style='text-align:center' data-order='3'>3</td><td><a href="https://doi.org/10.4064/aa123-2-2">Mean values of Dirichlet polynomials and applications to linear equations with prime variables</a></td><td>Stephen Choi; <a href="people/angel-kumchev.html"><strong>Angel Kumchev</strong></a></td><td>2006</td><td style='text-align:right' data-order='37'>37</td></tr>
+<tr><td style='text-align:center' data-order='4'>4</td><td><a href="https://doi.org/10.2307/2033065">A Report on Primes of the Form k⋅2 n + 1 and On Factors of Fermat Numbers</a></td><td>Raphael M. Robinson</td><td>1958</td><td style='text-align:right' data-order='32'>32</td></tr>
+<tr><td style='text-align:center' data-order='5'>5</td><td><a href="https://doi.org/10.1090/pspum/008/0176966">Primes represented by irreducible polynomials in one variable</a></td><td>Paul T. Bateman; Roger A. Horn</td><td>1965</td><td style='text-align:right' data-order='31'>31</td></tr>
+<tr><td style='text-align:center' data-order='6'>6</td><td><a href="https://doi.org/10.1090/s0025-5718-02-01418-7">New quadratic polynomials with high densities of prime values</a></td><td>Michael J. Jacobson; <a href="people/williams-h-c.html"><strong>Hugh C. Williams</strong></a></td><td>2002</td><td style='text-align:right' data-order='29'>29</td></tr>
+<tr><td style='text-align:center' data-order='7'>7</td><td><a href="https://doi.org/10.1007/bf01404106">Primes are nonnegative values of a polynomial in 10 variables</a></td><td>Yu. V. Matijasevič</td><td>1981</td><td style='text-align:right' data-order='27'>27</td></tr>
+<tr><td style='text-align:center' data-order='8'>8</td><td><a href="https://doi.org/10.1017/s0027763000001185">On prime valued polynomials and class numbers of real quadratic fields</a></td><td><a href="people/mollin-richard-a.html"><strong>R. A. Mollin</strong></a>; <a href="people/williams-h-c.html"><strong>Hywel C Williams</strong></a></td><td>1988</td><td style='text-align:right' data-order='27'>27</td></tr>
+<tr><td style='text-align:center' data-order='9'>9</td><td><a href="https://doi.org/10.1023/a:1015237700066">Polynomial values free of large prime factors</a></td><td><a href="people/dartyge-cecile.html"><strong>Cécile Dartyge</strong></a>; <a href="people/tenenbaum-gerald.html"><strong>Gérald Tenenbaum</strong></a>; Greg Martin</td><td>2002</td><td style='text-align:right' data-order='24'>24</td></tr>
+<tr><td style='text-align:center' data-order='10'>10</td><td><a href="https://doi.org/10.1090/s0025-5718-1990-1023759-3">Quadratic polynomials which have a high density of prime values</a></td><td>Gilbert Fung; <a href="people/williams-h-c.html"><strong>Hywel C Williams</strong></a></td><td>1990</td><td style='text-align:right' data-order='24'>24</td></tr>
 </tbody>
 </table>
 <script>
 $(document).ready(function() {
-  $('#mc').DataTable({ pageLength: 10, lengthMenu: [10, 25], order: [[0, 'asc']] });
+  $('#mc').DataTable({ paging: false, info: false, lengthChange: false, searching: false, order: [[0, 'asc']] });
 });
 </script>
 
