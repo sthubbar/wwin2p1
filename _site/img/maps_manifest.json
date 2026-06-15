@@ -5,25 +5,25 @@
   "n_unplaced_no_geocode": 0,
   "n_unplaced_no_institution": 19,
   "unplaced": [
-    "#24 Victor Volfson",
-    "#26 Gareth A. Jones",
-    "#31 Runbo Li",
-    "#32 Mollin, Richard A.",
-    "#34 Alexander K. Zvonkin",
-    "#54 Wolke, Dieter",
-    "#64 Vakhitova, E. V.",
-    "#65 Hinz, Jürgen G.",
-    "#66 Pan, Chengdong",
-    "#67 Kan, Jiahai",
-    "#79 Levin, B. V.",
-    "#80 Salerno, S.",
-    "#89 Timofeev, N. M.",
-    "#90 Plaksin, V. A.",
-    "#91 Rieger, G. J.",
-    "#93 Chen, Yonggao",
-    "#94 De Koninck, J.-M.",
-    "#98 Sivaraman, Jyothsnaa",
-    "#100 Warlimont, Richard"
+    "#23 Victor Volfson",
+    "#25 Gareth A. Jones",
+    "#30 Runbo Li",
+    "#31 Mollin, Richard A.",
+    "#33 Alexander K. Zvonkin",
+    "#53 Wolke, Dieter",
+    "#63 Vakhitova, E. V.",
+    "#64 Hinz, Jürgen G.",
+    "#65 Pan, Chengdong",
+    "#66 Kan, Jiahai",
+    "#78 Levin, B. V.",
+    "#79 Salerno, S.",
+    "#88 Timofeev, N. M.",
+    "#89 Plaksin, V. A.",
+    "#90 Rieger, G. J.",
+    "#92 Chen, Yonggao",
+    "#93 De Koninck, J.-M.",
+    "#97 Sivaraman, Jyothsnaa",
+    "#99 Warlimont, Richard"
   ],
   "maps": [
     {
@@ -44,7 +44,6 @@
         "Shparlinski, Igor E.",
         "Paul Pollack",
         "Baier, Stephan",
-        "Motohashi, Y.",
         "Will Sawin",
         "Cai, Yingchun",
         "Mark Shusterman",
@@ -112,7 +111,8 @@
         "Teräväinen, Joni",
         "Blomer, Valentin",
         "Vatwani, Akshaa",
-        "Schlage-Puchta, Jan-Christoph"
+        "Schlage-Puchta, Jan-Christoph",
+        "Meng, Xianmeng"
       ],
       "unplaced_no_geocode_in_region": 0
     },
@@ -159,14 +159,13 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 30,
-      "drawn_count": 30,
+      "stated_count": 29,
+      "drawn_count": 29,
       "match": true,
       "names": [
         "Iwaniec, Henryk",
         "Heath-Brown, D. R.",
         "Harman, Glyn",
-        "Motohashi, Y.",
         "Fouvry, Etienne",
         "Ercan Altınışık",
         "Efthymios Sofos",
@@ -198,8 +197,8 @@
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 18,
-      "drawn_count": 18,
+      "stated_count": 19,
+      "drawn_count": 19,
       "match": true,
       "names": [
         "Apoloniusz Tyszka",
@@ -219,7 +218,8 @@
         "Zhai, Wenguang",
         "Xi, Ping",
         "Lu, Minggao",
-        "Vatwani, Akshaa"
+        "Vatwani, Akshaa",
+        "Meng, Xianmeng"
       ],
       "unplaced_no_geocode_in_region": 0
     },
@@ -235,7 +235,7 @@
     }
   ],
   "geocode_sources": {
-    "openalex": 20,
-    "legacy_gb_cache": 61
+    "openalex": 21,
+    "legacy_gb_cache": 60
   }
 }
