@@ -38,19 +38,19 @@
         "Friedlander, John",
         "Heath-Brown, D. R.",
         "Min Sha",
-        "Ruqing Chen",
         "Murty, M. Ram",
         "Harman, Glyn",
-        "Shparlinski, Igor E.",
         "Paul Pollack",
+        "Shparlinski, Igor E.",
         "Baier, Stephan",
         "Will Sawin",
-        "Cai, Yingchun",
+        "Motohashi, Y.",
         "Mark Shusterman",
-        "Fouvry, Etienne",
+        "Cai, Yingchun",
         "Ercan Altınışık",
-        "Efthymios Sofos",
+        "Fouvry, Etienne",
         "Murat Demirbüken",
+        "Efthymios Sofos",
         "Pomerance, Carl",
         "S.W. Drury",
         "Pintz, J.",
@@ -159,17 +159,18 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 29,
-      "drawn_count": 29,
+      "stated_count": 30,
+      "drawn_count": 30,
       "match": true,
       "names": [
         "Iwaniec, Henryk",
         "Heath-Brown, D. R.",
         "Harman, Glyn",
-        "Fouvry, Etienne",
+        "Motohashi, Y.",
         "Ercan Altınışık",
-        "Efthymios Sofos",
+        "Fouvry, Etienne",
         "Murat Demirbüken",
+        "Efthymios Sofos",
         "Pintz, J.",
         "Tenenbaum, Gérald",
         "Maynard, James",
@@ -197,13 +198,12 @@
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 19,
-      "drawn_count": 19,
+      "stated_count": 18,
+      "drawn_count": 18,
       "match": true,
       "names": [
         "Apoloniusz Tyszka",
         "Min Sha",
-        "Ruqing Chen",
         "Shparlinski, Igor E.",
         "Baier, Stephan",
         "Cai, Yingchun",
@@ -235,7 +235,7 @@
     }
   ],
   "geocode_sources": {
-    "openalex": 21,
-    "legacy_gb_cache": 60
+    "openalex": 20,
+    "legacy_gb_cache": 61
   }
 }
