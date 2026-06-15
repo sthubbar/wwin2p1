@@ -1,14 +1,15 @@
 {
   "site": "n2p1",
   "n_top": 100,
-  "n_placed": 80,
+  "n_placed": 78,
   "n_unplaced_no_geocode": 0,
-  "n_unplaced_no_institution": 20,
+  "n_unplaced_no_institution": 22,
   "unplaced": [
+    "#15 Yingchun Cai",
     "#23 Victor Volfson",
     "#25 Gareth A. Jones",
     "#29 Mollin, Richard A.",
-    "#30 Runbo Li",
+    "#32 Runbo Li",
     "#33 Alexander K. Zvonkin",
     "#52 Wolke, Dieter",
     "#62 Vakhitova, E. V.",
@@ -21,16 +22,17 @@
     "#88 Timofeev, N. M.",
     "#89 Plaksin, V. A.",
     "#90 Rieger, G. J.",
-    "#92 Chen, Yonggao",
-    "#93 De Koninck, J.-M.",
-    "#97 Sivaraman, Jyothsnaa",
-    "#99 Warlimont, Richard"
+    "#92 De Koninck, J.-M.",
+    "#96 Sivaraman, Jyothsnaa",
+    "#98 Warlimont, Richard",
+    "#99 Xianmeng Meng",
+    "#100 Sarnak, Peter"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 80,
-      "drawn_count": 80,
+      "stated_count": 78,
+      "drawn_count": 78,
       "match": true,
       "names": [
         "Iwaniec, Henryk",
@@ -47,7 +49,6 @@
         "Will Sawin",
         "Motohashi, Y.",
         "Mark Shusterman",
-        "Cai, Yingchun",
         "Ercan Altınışık",
         "Fouvry, Etienne",
         "Murat Demirbüken",
@@ -68,8 +69,8 @@
         "Matomäki, Kaisa",
         "Ford, Kevin",
         "Sárközy, A.",
-        "Granville, Andrew",
         "Stephan Ramon Garcia",
+        "Granville, Andrew",
         "Diamond, H.",
         "Deshouillers, Jean-Marc",
         "Liangyi Zhao",
@@ -111,8 +112,7 @@
         "Teräväinen, Joni",
         "Blomer, Valentin",
         "Vatwani, Akshaa",
-        "Schlage-Puchta, Jan-Christoph",
-        "Meng, Xianmeng"
+        "Schlage-Puchta, Jan-Christoph"
       ],
       "unplaced_no_geocode_in_region": 0
     },
@@ -134,8 +134,8 @@
         "Goldston, D. A.",
         "Vaughan, R. C.",
         "Ford, Kevin",
-        "Granville, Andrew",
         "Stephan Ramon Garcia",
+        "Granville, Andrew",
         "Diamond, H.",
         "Tao, Terence",
         "Kowalski, Emmanuel",
@@ -197,15 +197,14 @@
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 18,
-      "drawn_count": 18,
+      "stated_count": 16,
+      "drawn_count": 16,
       "match": true,
       "names": [
         "Apoloniusz Tyszka",
         "Min Sha",
         "Shparlinski, Igor E.",
         "Baier, Stephan",
-        "Cai, Yingchun",
         "Wu, Jie",
         "Jia, Chaohua",
         "Liangyi Zhao",
@@ -217,8 +216,7 @@
         "Zhai, Wenguang",
         "Xi, Ping",
         "Lu, Minggao",
-        "Vatwani, Akshaa",
-        "Meng, Xianmeng"
+        "Vatwani, Akshaa"
       ],
       "unplaced_no_geocode_in_region": 0
     },
@@ -234,7 +232,7 @@
     }
   ],
   "geocode_sources": {
-    "openalex": 17,
+    "openalex": 15,
     "legacy_gb_cache": 63
   }
 }
