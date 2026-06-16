@@ -1,18 +1,15 @@
 {
   "site": "n2p1",
   "n_top": 100,
-  "n_placed": 88,
-  "n_unplaced_no_geocode": 12,
+  "n_placed": 91,
+  "n_unplaced_no_geocode": 9,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#1 Iwaniec, Henryk [Rutgers University]",
     "#23 Victor Volfson [-]",
-    "#26 Wu, Jie [Institut Elie Cartan de Lorraine, CNRS]",
     "#33 Alexander K. Zvonkin [Université de Bordeaux]",
     "#52 Wolke, Dieter [University of Freiburg]",
     "#62 Vakhitova, E. V. [-]",
     "#64 Kan, Jiahai [Nanjing University of Posts and Telecommunications]",
-    "#76 Min Zhang [Beijing Information Science and Technology University]",
     "#77 Levin, B. V. [-]",
     "#88 Timofeev, N. M. [-]",
     "#89 Plaksin, V. A. [-]",
@@ -21,10 +18,11 @@
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 88,
-      "drawn_count": 88,
+      "stated_count": 91,
+      "drawn_count": 91,
       "match": true,
       "names": [
+        "Iwaniec, Henryk",
         "Florian Luca",
         "Apoloniusz Tyszka",
         "Friedlander, John",
@@ -48,6 +46,7 @@
         "Pintz, J.",
         "Elliott, P. D. T. A.",
         "Gareth A. Jones",
+        "Wu, Jie",
         "Baker, R. C.",
         "Goldston, D. A.",
         "Mollin, Richard A.",
@@ -93,6 +92,7 @@
         "Hildebrand, Adolf",
         "Yıldırım, C. Y.",
         "Jinjiang Li",
+        "Min Zhang",
         "Salerno, S.",
         "Pan, Chengdong",
         "Coppola, Giovanni",
@@ -114,14 +114,15 @@
         "Xianmeng Meng",
         "Sarnak, Peter"
       ],
-      "unplaced_no_geocode_in_region": 12
+      "unplaced_no_geocode_in_region": 9
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 35,
-      "drawn_count": 35,
+      "stated_count": 36,
+      "drawn_count": 36,
       "match": true,
       "names": [
+        "Iwaniec, Henryk",
         "Friedlander, John",
         "Murty, M. Ram",
         "Paul Pollack",
@@ -158,12 +159,12 @@
         "De Koninck, J.-M.",
         "Sarnak, Peter"
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 34,
-      "drawn_count": 34,
+      "stated_count": 35,
+      "drawn_count": 35,
       "match": true,
       "names": [
         "Heath-Brown, D. R.",
@@ -175,6 +176,7 @@
         "Efthymios Sofos",
         "Pintz, J.",
         "Gareth A. Jones",
+        "Wu, Jie",
         "Tenenbaum, Gérald",
         "Maynard, James",
         "Ramaré, Olivier",
@@ -201,12 +203,12 @@
         "Schlage-Puchta, Jan-Christoph",
         "Warlimont, Richard"
       ],
-      "unplaced_no_geocode_in_region": 5
+      "unplaced_no_geocode_in_region": 4
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 18,
-      "drawn_count": 18,
+      "stated_count": 19,
+      "drawn_count": 19,
       "match": true,
       "names": [
         "Apoloniusz Tyszka",
@@ -221,6 +223,7 @@
         "Pan, Hao",
         "Jianya Liu",
         "Jinjiang Li",
+        "Min Zhang",
         "Pan, Chengdong",
         "Zhai, Wenguang",
         "Xi, Ping",
@@ -228,7 +231,7 @@
         "Vatwani, Akshaa",
         "Xianmeng Meng"
       ],
-      "unplaced_no_geocode_in_region": 3
+      "unplaced_no_geocode_in_region": 2
     },
     {
       "file": "14_top100_other.png",
@@ -242,7 +245,8 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 69,
+    "verified:2026-06-15(Claude,web; main campus)": 4,
+    "legacy_gb_cache": 68,
     "openalex": 19
   }
 }
