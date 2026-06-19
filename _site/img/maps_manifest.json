@@ -1,25 +1,24 @@
 {
   "site": "n2p1",
   "n_top": 100,
-  "n_placed": 91,
-  "n_unplaced_no_geocode": 9,
+  "n_placed": 92,
+  "n_unplaced_no_geocode": 8,
   "n_unplaced_no_institution": 0,
   "unplaced": [
     "#23 Victor Volfson [-]",
     "#33 Alexander K. Zvonkin [Université de Bordeaux]",
-    "#52 Dieter Wolke [University of Freiburg]",
     "#62 E. V. Vakhitova [-]",
     "#64 Jiahai Kan [Nanjing University of Posts and Telecommunications]",
     "#77 B. V. Levin [-]",
     "#88 N. M. Timofeev [-]",
     "#89 V. A. Plaksin [-]",
-    "#96 Jyothsnaa Sivaraman [Chennai Mathematical Institute]"
+    "#95 Jyothsnaa Sivaraman [Chennai Mathematical Institute]"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 91,
-      "drawn_count": 91,
+      "stated_count": 92,
+      "drawn_count": 92,
       "match": true,
       "names": [
         "Henryk Iwaniec",
@@ -71,6 +70,7 @@
         "Imre Kátai",
         "Jörg Brüdern",
         "Angel Kumchev",
+        "Dieter Wolke",
         "Enrico Bombieri",
         "Doychin Tolev",
         "Guangshi Lu",
@@ -103,7 +103,6 @@
         "Ping Xi",
         "Jori Merikoski",
         "Krishnaswami Alladi",
-        "G. J. Rieger",
         "Minggao Lu",
         "Jean-Marie De Koninck",
         "Joni Teräväinen",
@@ -112,9 +111,10 @@
         "Jan-Christoph Schlage-Puchta",
         "Richard Warlimont",
         "Xianmeng Meng",
-        "Peter Sarnak"
+        "Peter Sarnak",
+        "Sanoli Gun"
       ],
-      "unplaced_no_geocode_in_region": 9
+      "unplaced_no_geocode_in_region": 8
     },
     {
       "file": "11_top100_north_america.png",
@@ -186,6 +186,7 @@
         "Jean‐Marc Deshouillers",
         "Christian Elsholtz",
         "Jörg Brüdern",
+        "Dieter Wolke",
         "Doychin Tolev",
         "Sergey Konyagin",
         "Tim Browning",
@@ -197,18 +198,17 @@
         "S. Salerno",
         "Giovanni Coppola",
         "Jori Merikoski",
-        "G. J. Rieger",
         "Joni Teräväinen",
         "Valentin Blomer",
         "Jan-Christoph Schlage-Puchta",
         "Richard Warlimont"
       ],
-      "unplaced_no_geocode_in_region": 4
+      "unplaced_no_geocode_in_region": 3
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 19,
-      "drawn_count": 19,
+      "stated_count": 20,
+      "drawn_count": 20,
       "match": true,
       "names": [
         "Apoloniusz Tyszka",
@@ -229,7 +229,8 @@
         "Ping Xi",
         "Minggao Lu",
         "Akshaa Vatwani",
-        "Xianmeng Meng"
+        "Xianmeng Meng",
+        "Sanoli Gun"
       ],
       "unplaced_no_geocode_in_region": 2
     },
@@ -246,7 +247,8 @@
   ],
   "geocode_sources": {
     "verified:2026-06-15(Claude,web; main campus)": 4,
-    "legacy_gb_cache": 68,
-    "openalex": 19
+    "legacy_gb_cache": 69,
+    "openalex": 18,
+    "manual:wikipedia-coords 2026-06-19": 1
   }
 }
