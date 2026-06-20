@@ -1,24 +1,17 @@
 {
   "site": "n2p1",
   "n_top": 100,
-  "n_placed": 92,
-  "n_unplaced_no_geocode": 8,
+  "n_placed": 99,
+  "n_unplaced_no_geocode": 1,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#23 Victor Volfson [-]",
-    "#33 Alexander K. Zvonkin [Université de Bordeaux]",
-    "#62 E. V. Vakhitova [-]",
-    "#64 Jiahai Kan [Nanjing University of Posts and Telecommunications]",
-    "#77 B. V. Levin [-]",
-    "#88 N. M. Timofeev [-]",
-    "#89 V. A. Plaksin [-]",
-    "#95 Jyothsnaa Sivaraman [Chennai Mathematical Institute]"
+    "#23 Victor Volfson [-]"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 92,
-      "drawn_count": 92,
+      "stated_count": 99,
+      "drawn_count": 99,
       "match": true,
       "names": [
         "Henryk Iwaniec",
@@ -52,6 +45,7 @@
         "Gérald Tenenbaum",
         "Runbo Li",
         "R. C. Vaughan",
+        "Alexander K. Zvonkin",
         "James Maynard",
         "Olivier Ramaré",
         "Chaohua Jia",
@@ -80,7 +74,9 @@
         "Sergey Konyagin",
         "Tim Browning",
         "Hao Pan",
+        "E. V. Vakhitova",
         "Jürgen G. Hinz",
+        "Jiahai Kan",
         "William D. Banks",
         "Antal Balog",
         "Jianya Liu",
@@ -93,6 +89,7 @@
         "C. Y. Yıldırım",
         "Jinjiang Li",
         "Min Zhang",
+        "B. V. Levin",
         "S. Salerno",
         "Pan, Chengdong",
         "Giovanni Coppola",
@@ -103,18 +100,21 @@
         "Ping Xi",
         "Jori Merikoski",
         "Krishnaswami Alladi",
+        "N. M. Timofeev",
+        "V. A. Plaksin",
         "Minggao Lu",
         "Jean-Marie De Koninck",
         "Joni Teräväinen",
         "Valentin Blomer",
         "Akshaa Vatwani",
+        "Jyothsnaa Sivaraman",
         "Jan-Christoph Schlage-Puchta",
         "Richard Warlimont",
         "Xianmeng Meng",
         "Peter Sarnak",
         "Sanoli Gun"
       ],
-      "unplaced_no_geocode_in_region": 8
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "11_top100_north_america.png",
@@ -163,8 +163,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 35,
-      "drawn_count": 35,
+      "stated_count": 40,
+      "drawn_count": 40,
       "match": true,
       "names": [
         "D. R. Heath-Brown",
@@ -178,6 +178,7 @@
         "Gareth A. Jones",
         "Jie Wu",
         "Gérald Tenenbaum",
+        "Alexander K. Zvonkin",
         "James Maynard",
         "Olivier Ramaré",
         "George Greaves",
@@ -190,25 +191,29 @@
         "Doychin Tolev",
         "Sergey Konyagin",
         "Tim Browning",
+        "E. V. Vakhitova",
         "Jürgen G. Hinz",
         "Antal Balog",
         "Cécile Dartyge",
         "H. A. Helfgott",
         "C. Y. Yıldırım",
+        "B. V. Levin",
         "S. Salerno",
         "Giovanni Coppola",
         "Jori Merikoski",
+        "N. M. Timofeev",
+        "V. A. Plaksin",
         "Joni Teräväinen",
         "Valentin Blomer",
         "Jan-Christoph Schlage-Puchta",
         "Richard Warlimont"
       ],
-      "unplaced_no_geocode_in_region": 3
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 20,
-      "drawn_count": 20,
+      "stated_count": 22,
+      "drawn_count": 22,
       "match": true,
       "names": [
         "Apoloniusz Tyszka",
@@ -221,6 +226,7 @@
         "Guangshi Lu",
         "Hongze Li",
         "Hao Pan",
+        "Jiahai Kan",
         "Jianya Liu",
         "Jinjiang Li",
         "Min Zhang",
@@ -229,10 +235,11 @@
         "Ping Xi",
         "Minggao Lu",
         "Akshaa Vatwani",
+        "Jyothsnaa Sivaraman",
         "Xianmeng Meng",
         "Sanoli Gun"
       ],
-      "unplaced_no_geocode_in_region": 2
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "14_top100_other.png",
@@ -249,6 +256,7 @@
     "verified:2026-06-15(Claude,web; main campus)": 4,
     "legacy_gb_cache": 69,
     "openalex": 18,
+    "verified:2026-06-20(Claude,web)": 7,
     "manual:wikipedia-coords 2026-06-19": 1
   }
 }
