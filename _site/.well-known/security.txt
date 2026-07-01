@@ -1,0 +1,4 @@
+Contact: mailto:admin@wwin2p1.org
+Expires: 2027-07-01T00:00:00.000Z
+Preferred-Languages: en
+Canonical: https://wwin2p1.org/.well-known/security.txt
