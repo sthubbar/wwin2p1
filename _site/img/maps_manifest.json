@@ -118,8 +118,8 @@
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 33,
-      "drawn_count": 33,
+      "stated_count": 32,
+      "drawn_count": 32,
       "match": true,
       "names": [
         "Henryk Iwaniec",
@@ -134,7 +134,6 @@
         "Kevin Ford",
         "Stephan Ramon Garcia",
         "Harold G. Diamond",
-        "Emmanuel Kowalski",
         "Peter Sarnak",
         "Imre Kátai",
         "Angel Kumchev",
@@ -160,8 +159,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 42,
-      "drawn_count": 42,
+      "stated_count": 43,
+      "drawn_count": 43,
       "match": true,
       "names": [
         "D. R. Heath-Brown",
@@ -178,6 +177,7 @@
         "András Sárközy",
         "Jean‐Marc Deshouillers",
         "Christian Elsholtz",
+        "Emmanuel Kowalski",
         "Joni Teräväinen",
         "Dieter Wolke",
         "Doychin Tolev",
@@ -247,10 +247,10 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 66,
+    "legacy_gb_cache": 67,
     "verified:2026-06-15(Claude,web; main campus)": 3,
     "verified:2026-06-20(Claude,web)": 8,
-    "openalex": 15,
+    "openalex": 14,
     "manual:wikipedia-coords 2026-06-19": 1
   }
 }
