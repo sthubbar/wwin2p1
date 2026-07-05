@@ -5,10 +5,10 @@
   "n_unplaced_no_geocode": 4,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#93 Stanley Yao Xiao [University of Northern British Columbia]",
-    "#97 Shituo Lou [-]",
-    "#98 Qi Yao [-]",
-    "#99 Saburô Uchiyama [NA]"
+    "#92 Stanley Yao Xiao [University of Northern British Columbia]",
+    "#95 Shituo Lou [-]",
+    "#96 Qi Yao [-]",
+    "#97 Saburô Uchiyama [NA]"
   ],
   "maps": [
     {
@@ -100,7 +100,6 @@
         "Karl-Heinz Indlekofer",
         "S. I. Dimitrov",
         "Karin Halupczok",
-        "Atle Selberg",
         "Frieder Grupp",
         "V. Kumar Murty",
         "D. S. Ramana",
@@ -110,16 +109,17 @@
         "Yong-Gao Chen",
         "Imre Z. Ruzsa",
         "P. Moree",
-        "P. X. Gallagher",
         "Helmut Maier",
-        "Hiroshi Mikawa"
+        "Hiroshi Mikawa",
+        "Svetlana Rifovna Vakhitova",
+        "Joël Rivat"
       ],
       "unplaced_no_geocode_in_region": 4
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 32,
-      "drawn_count": 32,
+      "stated_count": 30,
+      "drawn_count": 30,
       "match": true,
       "names": [
         "Henryk Iwaniec",
@@ -151,16 +151,14 @@
         "Krishnaswami Alladi",
         "Jean-Marie De Koninck",
         "Trevor D. Wooley",
-        "Atle Selberg",
-        "V. Kumar Murty",
-        "P. X. Gallagher"
+        "V. Kumar Murty"
       ],
       "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 44,
-      "drawn_count": 44,
+      "stated_count": 46,
+      "drawn_count": 46,
       "match": true,
       "names": [
         "D. R. Heath-Brown",
@@ -206,7 +204,9 @@
         "Akash Singha Roy",
         "Imre Z. Ruzsa",
         "P. Moree",
-        "Helmut Maier"
+        "Helmut Maier",
+        "Svetlana Rifovna Vakhitova",
+        "Joël Rivat"
       ],
       "unplaced_no_geocode_in_region": 0
     },
@@ -250,9 +250,9 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 66,
+    "legacy_gb_cache": 65,
     "verified:2026-06-15(Claude,web; main campus)": 4,
-    "verified:2026-06-20(Claude,web)": 8,
+    "verified:2026-06-20(Claude,web)": 9,
     "openalex": 14,
     "manual:wikipedia-coords 2026-06-19": 1,
     "https://openalex.org/I35409948:mgpschool2026-07-04": 1,
