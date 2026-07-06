@@ -118,8 +118,8 @@
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 30,
-      "drawn_count": 30,
+      "stated_count": 29,
+      "drawn_count": 29,
       "match": true,
       "names": [
         "Henryk Iwaniec",
@@ -135,7 +135,6 @@
         "Stephan Ramon Garcia",
         "Harold G. Diamond",
         "Peter Sarnak",
-        "Imre Kátai",
         "Angel Kumchev",
         "Enrico Bombieri",
         "Hugh Lowell Montgomery",
@@ -157,8 +156,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 46,
-      "drawn_count": 46,
+      "stated_count": 47,
+      "drawn_count": 47,
       "match": true,
       "names": [
         "D. R. Heath-Brown",
@@ -176,6 +175,7 @@
         "Jean‐Marc Deshouillers",
         "Christian Elsholtz",
         "Emmanuel Kowalski",
+        "Imre Kátai",
         "Joni Teräväinen",
         "Dieter Wolke",
         "Doychin Tolev",
@@ -251,10 +251,10 @@
     }
   ],
   "geocode_sources": {
-    "legacy_gb_cache": 66,
+    "legacy_gb_cache": 68,
     "verified:2026-06-15(Claude,web; main campus)": 4,
     "verified:2026-06-20(Claude,web)": 9,
-    "openalex": 14,
+    "openalex": 12,
     "manual:wikipedia-coords 2026-06-19": 1,
     "https://openalex.org/I35409948:mgpschool2026-07-04": 1,
     "https://openalex.org/I4654613:mgpschool2026-07-04": 1,
