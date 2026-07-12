@@ -156,13 +156,12 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 47,
-      "drawn_count": 47,
+      "stated_count": 46,
+      "drawn_count": 46,
       "match": true,
       "names": [
         "D. R. Heath-Brown",
         "Glyn Harman",
-        "Yoichi Motohashi",
         "Efthymios Sofos",
         "Etienne Fouvry",
         "Janos Pintz",
@@ -212,11 +211,12 @@
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 20,
-      "drawn_count": 20,
+      "stated_count": 21,
+      "drawn_count": 21,
       "match": true,
       "names": [
         "Stephan Baier",
+        "Yoichi Motohashi",
         "Yingchun Cai",
         "Liangyi Zhao",
         "Hongze Li",
