@@ -5,9 +5,9 @@
   "n_unplaced_no_geocode": 3,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#92 Stanley Yao Xiao [University of Northern British Columbia]",
-    "#95 Shituo Lou [-]",
-    "#96 Qi Yao [-]"
+    "#91 Stanley Yao Xiao [University of Northern British Columbia]",
+    "#94 Shituo Lou [-]",
+    "#95 Qi Yao [-]"
   ],
   "maps": [
     {
@@ -76,7 +76,6 @@
         "Min Zhang",
         "B. V. Levin",
         "S. Salerno",
-        "Pan, Chengdong",
         "Michael Filaseta",
         "S. W. Graham",
         "Philippe Michel",
@@ -112,7 +111,8 @@
         "Hiroshi Mikawa",
         "Svetlana Rifovna Vakhitova",
         "Joël Rivat",
-        "Zhiwei Wang"
+        "Zhiwei Wang",
+        "Régis de la Bretèche"
       ],
       "unplaced_no_geocode_in_region": 3
     },
@@ -156,8 +156,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 46,
-      "drawn_count": 46,
+      "stated_count": 47,
+      "drawn_count": 47,
       "match": true,
       "names": [
         "D. R. Heath-Brown",
@@ -205,14 +205,15 @@
         "P. Moree",
         "Helmut Maier",
         "Svetlana Rifovna Vakhitova",
-        "Joël Rivat"
+        "Joël Rivat",
+        "Régis de la Bretèche"
       ],
       "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 21,
-      "drawn_count": 21,
+      "stated_count": 20,
+      "drawn_count": 20,
       "match": true,
       "names": [
         "Stephan Baier",
@@ -224,7 +225,6 @@
         "Jianya Liu",
         "Jinjiang Li",
         "Min Zhang",
-        "Pan, Chengdong",
         "Ping Xi",
         "Minggao Lu",
         "Akshaa Vatwani",
