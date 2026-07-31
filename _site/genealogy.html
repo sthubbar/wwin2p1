@@ -134,15 +134,20 @@
 <h2>How the proximity score works</h2>
 <p>We build one graph from the advisor and student trees of all Top 100 researchers. A close relation is an outsider directly tied (as advisor or student) to at least two Top 100 researchers. Each gets a proximity score that sums, over those direct ties, <code>101 minus the connected researcher's rank</code>. Being tied to the top of the list counts for much more than being tied to the bottom. Only direct ties count; people already in the directory and deceased mathematicians are excluded.</p>
 
+<h2>What this crawl covered</h2>
+<p>We crawled the advisor and student trees of the 69 Top 100 researchers who have an entry in the Mathematics Genealogy Project, and every node in those trees was fetched. The remaining 31 of the 100 have no entry in that database, so their lineage cannot be traced and this page cannot speak for them.</p>
+
+
 
 <h2>Level L1</h2>
 <table id="gentbl0" class="display compact stripe hover" style="width:100%">
 <thead><tr><th title="An outsider tied to at least two Top 100 researchers by advisor-student links">Name</th><th title="Where they earned the doctorate, per the Mathematics Genealogy Project">Institution</th><th class="num-col" title="Doctorate year">PhD year</th><th class="num-col" title="How many Top 100 researchers they advised or were advised by">Direct Top 100 ties</th><th class="num-col" title="Sum over ties of 101 minus the tied researcher's rank; ties to the top of the list count most">Proximity score</th></tr></thead>
 <tbody>
 <tr><td><a href="people/douglas-robert-woodall">Douglas Woodall</a></td><td><a href="https://www.nottingham.ac.uk/">University of Nottingham</a></td><td class="num-col" data-order="1969">1969</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="182">182</td></tr>
-<tr><td><a href="people/michael-anthony-filaseta">Michael Filaseta</a></td><td><a href="https://illinois.edu">University of Illinois Urbana-Champaign</a></td><td class="num-col" data-order="1984">1984</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="159">159</td></tr>
-<tr><td><a href="people/david-feutrie">David Feutrie</a></td><td><a href="https://www.univ-lorraine.fr">Université de Lorraine</a></td><td class="num-col" data-order="2019">2019</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="126">126</td></tr>
-<tr><td><a href="people/theodor-estermann">T. Estermann</a></td><td><a href="https://www.uni-hamburg.de">Universität Hamburg</a></td><td class="num-col" data-order="1925">1925</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="99">99</td></tr>
+<tr><td><a href="people/theodor-estermann">T. Estermann</a></td><td><a href="https://www.uni-hamburg.de">Universität Hamburg</a></td><td class="num-col" data-order="1925">1925</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="174">174</td></tr>
+<tr><td><a href="people/steven-joel-miller">Steven J. Miller</a></td><td><a href="https://www.princeton.edu">Princeton University</a></td><td class="num-col" data-order="2002">2002</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="169">169</td></tr>
+<tr><td><a href="people/andrew-r-booker">Andrew R. Booker</a></td><td><a href="https://www.princeton.edu">Princeton University</a></td><td class="num-col" data-order="2003">2003</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="159">159</td></tr>
+<tr><td><a href="people/benny-loffel">Benny Löffel</a></td><td><a href="https://ethz.ch">ETH Zurich</a></td><td class="num-col" data-order="2016">2016</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="152">152</td></tr>
 </tbody></table>
 <script>
 $(document).ready(function() {
@@ -156,9 +161,11 @@ $(document).ready(function() {
 <table id="gentbl1" class="display compact stripe hover" style="width:100%">
 <thead><tr><th title="An outsider tied to at least two Top 100 researchers by advisor-student links">Name</th><th title="Where they earned the doctorate, per the Mathematics Genealogy Project">Institution</th><th class="num-col" title="Doctorate year">PhD year</th><th class="num-col" title="How many Top 100 researchers they advised or were advised by">Direct Top 100 ties</th><th class="num-col" title="Sum over ties of 101 minus the tied researcher's rank; ties to the top of the list count most">Proximity score</th></tr></thead>
 <tbody>
-<tr><td><a href="people/peng-gao">Peng Gao</a></td><td><a href="https://www.umich.edu">University of Michigan</a></td><td class="num-col" data-order="2005">2005</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="95">95</td></tr>
-<tr><td><a href="people/benny-loffel">Benny Löffel</a></td><td><a href="https://ethz.ch">ETH Zurich</a></td><td class="num-col" data-order="2016">2016</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="64">64</td></tr>
-<tr><td><a href="people/andreas-steiger">Andreas Steiger</a></td><td><a href="https://ethz.ch">ETH Zurich</a></td><td class="num-col" data-order="2014">2014</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="64">64</td></tr>
+<tr><td><a href="people/andreas-steiger">Andreas Steiger</a></td><td><a href="https://ethz.ch">ETH Zurich</a></td><td class="num-col" data-order="2014">2014</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="152">152</td></tr>
+<tr><td><a href="people/olli-jarviniemi">Olli Järviniemi</a></td><td><a href="https://www.utu.fi">University of Turku</a></td><td class="num-col" data-order="2023">2023</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="140">140</td></tr>
+<tr><td><a href="people/paul-joseph-cohen">Paul Cohen</a></td><td><a href="https://www.uchicago.edu">The University of Chicago</a></td><td class="num-col" data-order="1958">1958</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="136">136</td></tr>
+<tr><td><a href="people/david-feutrie">David Feutrie</a></td><td><a href="https://www.univ-lorraine.fr">Université de Lorraine</a></td><td class="num-col" data-order="2019">2019</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="126">126</td></tr>
+<tr><td><a href="people/kevin-henriot">Kevin Henriot</a></td><td>Université Paris Diderot - Paris 7 and Université de Montréal</td><td class="num-col" data-order="2014">2014</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="105">105</td></tr>
 </tbody></table>
 <script>
 $(document).ready(function() {
@@ -172,9 +179,11 @@ $(document).ready(function() {
 <table id="gentbl2" class="display compact stripe hover" style="width:100%">
 <thead><tr><th title="An outsider tied to at least two Top 100 researchers by advisor-student links">Name</th><th title="Where they earned the doctorate, per the Mathematics Genealogy Project">Institution</th><th class="num-col" title="Doctorate year">PhD year</th><th class="num-col" title="How many Top 100 researchers they advised or were advised by">Direct Top 100 ties</th><th class="num-col" title="Sum over ties of 101 minus the tied researcher's rank; ties to the top of the list count most">Proximity score</th></tr></thead>
 <tbody>
-<tr><td><a href="people/huafeng-liu">Huafeng Liu</a></td><td><a href="https://www.sdu.edu.cn">Shandong University</a></td><td class="num-col" data-order="2017">2017</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="62">62</td></tr>
-<tr><td><a href="people/taiyu-li">Taiyu Li</a></td><td><a href="https://www.sdu.edu.cn">Shandong University</a></td><td class="num-col" data-order="2012">2012</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="62">62</td></tr>
-<tr><td><a href="people/dorian-morris-goldfeld">Dorian Goldfeld</a></td><td><a href="https://www.columbia.edu">Columbia University</a></td><td class="num-col" data-order="1969">1969</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="48">48</td></tr>
+<tr><td><a href="people/antoine-charles-marie-jacono">Antoine Charles Marie Jacono</a></td><td>Université de Paris</td><td class="num-col" data-order="2023">2023</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="96">96</td></tr>
+<tr><td><a href="people/peng-gao">Peng Gao</a></td><td><a href="https://www.umich.edu">University of Michigan</a></td><td class="num-col" data-order="2005">2005</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="95">95</td></tr>
+<tr><td><a href="people/timothy-daniel-browning">Tim Browning</a></td><td><a href="https://www.ox.ac.uk">University of Oxford</a></td><td class="num-col" data-order="2001">2001</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="95">95</td></tr>
+<tr><td><a href="people/damaris-schindler">Damaris Schindler</a></td><td><a href="https://bristol.ac.uk/">University of Bristol</a></td><td class="num-col" data-order="2013">2013</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="33">33</td></tr>
+<tr><td><a href="people/ken-ono">Ken Ono</a></td><td><a href="https://www.ucla.edu">University of California, Los Angeles</a></td><td class="num-col" data-order="1993">1993</td><td class="num-col" data-order="2">2</td><td class="num-col" data-order="9">9</td></tr>
 </tbody></table>
 <script>
 $(document).ready(function() {
@@ -188,15 +197,20 @@ $(document).ready(function() {
 <h2>Notes</h2>
 <ul>
 <li><strong>Douglas Woodall</strong> (University of Nottingham, 1969): A mathematician (PhD University of Nottingham, 1969) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
-<li><strong>Michael Filaseta</strong> (University of Illinois Urbana-Champaign, 1984): A mathematician (PhD University of Illinois at Urbana-Champaign, 1984) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
-<li><strong>David Feutrie</strong> (Université de Lorraine, 2019): A mathematician (PhD Université de Lorraine, 2019) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
 <li><strong>T. Estermann</strong> (Universität Hamburg, 1925): A mathematician (PhD Universität Hamburg, 1925) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
+<li><strong>Steven J. Miller</strong> (Princeton University, 2002): A mathematician (PhD Princeton University, 2002) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
+<li><strong>Andrew R. Booker</strong> (Princeton University, 2003): A mathematician (PhD Princeton University, 2003) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
+<li><strong>Benny Löffel</strong> (ETH Zurich, 2016): A mathematician (PhD ETH Zürich, 2016) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
+<li><strong>Andreas Steiger</strong> (ETH Zurich, 2014): A mathematician (PhD ETH Zürich, 2014) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
+<li><strong>Olli Järviniemi</strong> (University of Turku, 2023): A mathematician (PhD Turun yliopisto, 2023) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
+<li><strong>Paul Cohen</strong> (The University of Chicago, 1958): A mathematician (PhD The University of Chicago, 1958) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
+<li><strong>David Feutrie</strong> (Université de Lorraine, 2019): A mathematician (PhD Université de Lorraine, 2019) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
+<li><strong>Kevin Henriot</strong> (Université Paris Diderot - Paris 7 and Université de Montréal, 2014): A mathematician (PhD Université Paris Diderot - Paris 7 and Université de Montréal, 2014) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
+<li><strong>Antoine Charles Marie Jacono</strong> (Université de Paris, 2023): A mathematician (PhD Université de Paris, 2023) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
 <li><strong>Peng Gao</strong> (University of Michigan, 2005): A mathematician (PhD University of Michigan, 2005) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
-<li><strong>Benny Löffel</strong> (ETH Zurich, 2016): A mathematician (2016) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
-<li><strong>Andreas Steiger</strong> (ETH Zurich, 2014): A mathematician (2014) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
-<li><strong>Huafeng Liu</strong> (Shandong University, 2017): A mathematician (2017) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
-<li><strong>Taiyu Li</strong> (Shandong University, 2012): A mathematician (2012) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
-<li><strong>Dorian Goldfeld</strong> (Columbia University, 1969): A mathematician (1969) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
+<li><strong>Tim Browning</strong> (University of Oxford, 2001): A mathematician (PhD University of Oxford, 2001) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
+<li><strong>Damaris Schindler</strong> (University of Bristol, 2013): A mathematician (PhD University of Bristol, 2013) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
+<li><strong>Ken Ono</strong> (University of California, Los Angeles, 1993): A mathematician (PhD University of California, Los Angeles, 1993) directly tied to 2 Top 100 researchers through advisor-student relationships in the genealogy network.</li>
 </ul>
 
 
