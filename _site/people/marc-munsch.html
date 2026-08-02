@@ -9,6 +9,34 @@
 <link rel="stylesheet" href="https://cdn.datatables.net/2.1.8/css/dataTables.dataTables.min.css">
 <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
 <script src="https://cdn.datatables.net/2.1.8/js/dataTables.min.js"></script>
+<script id="wwi-sort-types">
+/* DASH-ABSOLUTE SORT TYPES, REGISTERED SITE-WIDE (Steve 2026-07-30).
+   These two order types were previously registered inside the Top 100 page's
+   own ready() block, so no other page could use them. Every table that now
+   exposes a sortable numeric column holding an honest dash (In Memoriam Rank,
+   Genealogy PhD year, the source-rank columns) needs them, so they are
+   registered once here, immediately after DataTables loads and before any
+   page script runs. Semantics are unchanged: -asc maps a dash to +Infinity and
+   -desc maps it to -Infinity, so a dash sinks to the BOTTOM in BOTH sort
+   directions. This is the existing mechanism, not a new one. */
+(function () {
+  if (!window.jQuery || !jQuery.fn.dataTable) return;
+  function num(x) { var n = parseFloat(x); return isNaN(n) ? null : n; }
+  var ext = jQuery.fn.dataTable.ext.type.order;
+  ext['dash-abs-asc'] = ext['ysp-abs-asc'] = function (a, b) {
+    var na = (a === '-') ? Infinity : num(a);
+    var nb = (b === '-') ? Infinity : num(b);
+    if (na === null) na = Infinity; if (nb === null) nb = Infinity;
+    return na - nb;
+  };
+  ext['dash-abs-desc'] = ext['ysp-abs-desc'] = function (a, b) {
+    var na = (a === '-') ? -Infinity : num(a);
+    var nb = (b === '-') ? -Infinity : num(b);
+    if (na === null) na = -Infinity; if (nb === null) nb = -Infinity;
+    return nb - na;
+  };
+})();
+</script>
 <meta property="og:title" content="Marc Munsch - Who&#x27;s Who in n²+1 Primes Research">
 <meta property="og:description" content="A directory of the researchers most active on the n²+1 prime conjecture, ranked from arXiv preprint output, OpenAlex citation data, and zbMATH MSC classifications.">
 <meta property="og:type" content="website">
@@ -34,54 +62,30 @@
 .search-results h2.sr-group:first-child{margin-top:0.4rem;}
 .search-result.sr-inst .sr-inst-ranks{margin:0.3rem 0 0 0;}
 .search-result.sr-inst .sr-inst-ranks a{white-space:nowrap;}
-/* Top 100: tighten the DataTables sort arrow and align numeric cells under it
-   (Steve 2026-06-30). Pull the arrow to the column edge to remove the trailing
-   gap, and give numeric headers and cells the same right padding so the numbers
-   line up directly beneath the indicator instead of overshooting it. */
-#top100tbl thead th span.dt-column-order,#institutions thead th span.dt-column-order{right:3px;}
-/* Breathing room between header text and the sort indicator (Steve
-   2026-07-04): every header cell reserves 24px on the right, the arrow sits
-   at right:3px, so text never touches the indicator. Data cells keep their
-   own tighter padding below. */
-#top100tbl thead th,#institutions thead th{padding-right:24px;}
-/* Ctry in-header filter (Steve 2026-07-04 final): tight cell padding, and
-   the select carries DataTables' own dt-input class so its height exactly
-   matches the search box and the per-page selector above the table.
-   Weight rules: the closed box shows BOLD "Ctry" (matching the other column
-   headers) while no country is chosen (.ctry-all, toggled on change), and
-   regular weight once a country is selected; in the open list the "Ctry"
-   option is bold, the country options regular. */
-#top100tbl thead th.ctry-th,#institutions thead th.ctry-th{padding:2px 3px !important;text-align:center;}
+/* Conventions 1 to 4 (sort-arrow position, header right reserve, numeric
+   alignment, nowrap) are NOT written here any more. They are generated once
+   per page from the collected DataTable id list, see _table_format_css() and
+   the {table_fmt_css} block at the end of this stylesheet. Only genuinely
+   page-specific extras stay hand-written below. */
+/* The Ctry in-header filter rules (Steve 2026-07-04, revised 2026-07-30) are
+   no longer hand-written here either: they are convention 6 of the generated
+   block at the end of this stylesheet, so the two ids are not spelled out by
+   hand any more and any future table carrying a Ctry filter picks them up. */
 /* subtle in-header nudge, e.g. "(hover rows for details)" (Steve 2026-07-05) */
 #institutions thead th .hdr-hint{font-weight:400;font-size:0.85em;color:#666;white-space:nowrap;}
-#top100tbl thead th.ctry-th select,#institutions thead th.ctry-th select{margin:0;font-weight:400;}
-#top100tbl thead th.ctry-th select.ctry-all,#institutions thead th.ctry-th select.ctry-all{font-weight:700;}
-#top100tbl thead th.ctry-th select option,#institutions thead th.ctry-th select option{font-weight:400;}
-#top100tbl thead th.ctry-th select option[value=""],#institutions thead th.ctry-th select option[value=""]{font-weight:700;}
-/* Institutions: only 6 columns, so the browser's proportional surplus
-   sharing fattened the # and numeric columns and pushed the names right
-   (Steve 2026-07-04). Shrink-pin every rtcol column to its content so the
-   Institution column absorbs the surplus, matching the Top 100 look where
-   Name/Institution dominate the width. */
-#institutions th.rtcol,#institutions td.rtcol{width:1px;}
-/* Tight right-aligned columns: the numeric columns (auto-classed dt-type-numeric
-   by DataTables) plus Ctry and Source (server-tagged .rtcol). Each shrinks to its
-   content (width:1px + nowrap) so the table's leftover width flows into Name and
-   Institution, and each is right-aligned. Padding is 4px both sides (header keeps
-   16px on the right for the sort arrow) so the tightened columns are not cramped
-   against each other (Steve 2026-06-30). */
-#top100tbl th.dt-type-numeric,#top100tbl th.rtcol,#institutions th.dt-type-numeric,#institutions th.rtcol{text-align:right;padding-left:4px;padding-right:24px;}
-#top100tbl td.dt-type-numeric,#top100tbl td.rtcol,#institutions td.dt-type-numeric,#institutions td.rtcol{text-align:right;padding-left:4px;padding-right:4px;}
-/* No width:1px shrink-pin here: with autoWidth:false the browser's native table
-   layout gives each column its true content-width minimum (collapses when the
-   table is narrow) and shares any surplus proportionally across all columns when
-   the table is wide. nowrap only, so short values stay on one line. (Steve test
-   2026-06-30.) */
-#top100tbl th.dt-type-numeric,#top100tbl td.dt-type-numeric,#top100tbl th.rtcol,#top100tbl td.rtcol,#institutions th.dt-type-numeric,#institutions td.dt-type-numeric,#institutions th.rtcol,#institutions td.rtcol{white-space:nowrap;}
+/* The Institutions shrink-pin (Steve 2026-07-04) is no longer hand-written
+   here: it is convention 5 of the generated block at the end of this
+   stylesheet, which now applies it to every narrow table, not just this one. */
 .col-glossary{margin:0.2rem 0 0.7rem 0;}
 .col-glossary li{margin:0.12rem 0;}
 .search-count{color:#555;font-size:0.95rem;margin:0.5rem 0 0.6rem 0;}
 .search-empty{color:#555;margin-top:1rem;}
+/* TABLE-FORMAT STANDARDIZATION, generated selector list (Steve 2026-07-30).
+   Built at render time from the ids of the DataTables-backed tables actually
+   on THIS page, so Top 100, Institutions, In Memoriam, Genealogy (gentbl0..N),
+   the reading list, Most cited and every region listing are all styled by the
+   SAME rule at the SAME specificity. See _table_format_css(). */
+/* no DataTables-backed table on this page */
 </style>
 </head>
 <body>
@@ -103,7 +107,7 @@
 <div class="sister-bar"><a class="sister-link" href="https://wwilp.org/">wwilp</a><span class="sister-sep">|</span><span class="sister-landau-box"><span class="sister-landau-label">Landau's Problems</span><a class="sister-link" href="https://wwigb.org/">wwigb</a><a class="sister-link" href="https://wwileg.org/">wwileg</a><span class="sister-current">wwin2p1</span><a class="sister-link" href="https://wwitp.org/">wwitp</a></span><span class="sister-sep">|</span><a class="sister-link" href="https://wwiabc.org/">wwiabc</a><span class="sister-sep">|</span><a class="sister-link" href="https://wwirh.org/">wwirh</a><form class="site-search" action="../search.html" method="get" role="search"><input type="search" name="q" class="site-search-input" placeholder="Search people and institutions" aria-label="Search people and institutions across all sites" autocomplete="off"><button type="submit" class="site-search-btn">Search</button></form></div>
 <main>
 <p class="subtitle"><a href="../top100">&larr; Back to the Top 100</a></p>
-<h1>Marc Munsch (#90)</h1>
+<h1>Marc Munsch (#100)</h1>
 <p class="subtitle">Institut Camille Jordan (FR)</p>
 
 <table class="profile-table">
@@ -114,20 +118,20 @@
 <tr><td>Country</td><td>FR</td></tr>
 <tr><td>Years Since PhD (YSP)</td><td>13</td></tr>
 <tr><td>h-index</td><td>9 <span class="muted">(<a href="https://openalex.org/A5013542925" title="Verify on OpenAlex">OpenAlex</a>)</span></td></tr>
-<tr><td>Status</td><td>Rank #90 on the n<sup>2</sup>+1 prime conjecture | composite score 126.1 | source: zb_only</td></tr>
+<tr><td>Status</td><td>Rank #100 on the n<sup>2</sup>+1 prime conjecture | composite score 139.1 | source: zb_only</td></tr>
 <tr><td>Mathematics Genealogy</td><td><a href="https://www.mathgenealogy.org/id.php?id=179268">View advisor-student lineage</a></td></tr>
-<tr><td>Ranking</td><td>Overall: #90 | arXiv: [2] (interpolated) | OpenAlex: [18] (interpolated) | zbMATH: 177</td></tr>
+<tr><td>Ranking</td><td>Overall: #100 | arXiv: [2] (interpolated) | OpenAlex: [22] (interpolated) | zbMATH: 195</td></tr>
 <tr><td>arXiv</td><td><a href="https://arxiv.org/search/?searchtype=author&amp;query=Marc+Munsch">Author search</a></td></tr>
 <tr><td>OpenAlex</td><td><a href="https://openalex.org/A5013542925">Author page</a></td></tr>
 <tr><td>zbMATH</td><td><a href="https://zbmath.org/authors/munsch.marc">Author page</a></td></tr>
-<tr><td>Also ranked in</td><td><a href="https://wwirh.org/">wwirh #117</a></td></tr>
+<tr><td>Also ranked in</td><td><a href="https://wwirh.org/">wwirh #121</a></td></tr>
 </tbody>
 </table>
 
 </main>
 <footer>
-<p>Maintained by Steve Hubbard (<a href="mailto:admin@wwin2p1.org">admin@wwin2p1.org</a>). Data sources: <a href="https://arxiv.org">arXiv</a>, <a href="https://openalex.org">OpenAlex</a>, <a href="https://zbmath.org">zbMATH Open</a>, <a href="https://www.mathgenealogy.org">Mathematics Genealogy Project</a>.</p>
-<p>Last built July 2026.</p>
+<p>Maintained by Steve Hubbard (<a href="mailto:admin@wwin2p1.org">admin@wwin2p1.org</a>). Data sources: <a href="https://arxiv.org">arXiv</a>, <a href="https://openalex.org">OpenAlex</a>, <a href="https://zbmath.org">zbMATH Open</a>, <a href="https://genealogy.math.ndsu.nodak.edu">Mathematics Genealogy Project</a>.</p>
+<p>Last built August 2026.</p>
 </footer>
 </body>
 </html>
