@@ -246,7 +246,8 @@
   ],
   "geocode_sources": {
     "verified:2026-06-15(Claude,web; main campus)": 3,
-    "legacy_gb_cache": 66,
+    "legacy_gb_cache": 65,
+    "https://openalex.org/I197681013:mgpschool2026-07-04": 1,
     "verified:2026-06-20(Claude,web)": 7,
     "openalex": 12,
     "manual:wikipedia-coords 2026-06-19": 1,
