@@ -5,15 +5,15 @@
   "n_unplaced_no_geocode": 9,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#71 Stanley Yao Xiao [University of Northern British Columbia]",
-    "#75 A. J. Irving [-]",
-    "#77 Shenggang Xie [-]",
-    "#82 Anitha Srinivasan [Saint Louis University Madrid]",
-    "#84 Daniel Loughran [University of Bath]",
-    "#85 Víctor Julio Ramírez Viñas [Simon Bolivar University]",
-    "#92 Stéphane R. Louboutin [Aix-Marseille University]",
-    "#96 Fernando Chamizo [Universidad Autónoma de Madrid]",
-    "#99 Alisa Sedunova [Purdue University]"
+    "#70 Stanley Yao Xiao [University of Northern British Columbia]",
+    "#74 A. J. Irving [-]",
+    "#76 Shenggang Xie [-]",
+    "#81 Anitha Srinivasan [Saint Louis University Madrid]",
+    "#83 Daniel Loughran [University of Bath]",
+    "#84 Víctor Julio Ramírez Viñas [Simon Bolivar University]",
+    "#91 Stéphane R. Louboutin [Aix-Marseille University]",
+    "#95 Fernando Chamizo [Universidad Autónoma de Madrid]",
+    "#98 Alisa Sedunova [Purdue University]"
   ],
   "maps": [
     {
@@ -43,7 +43,6 @@
         "R. C. Vaughan",
         "James Maynard",
         "Stephan Ramon Garcia",
-        "George Greaves",
         "Kaisa Matomäki",
         "Kevin Ford",
         "András Sárközy",
@@ -112,7 +111,8 @@
         "Timothy Foo",
         "Kostadinka Lapkova",
         "Marc Munsch",
-        "Nick Rome"
+        "Nick Rome",
+        "Habibur Rahaman"
       ],
       "unplaced_no_geocode_in_region": 9
     },
@@ -158,8 +158,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 42,
-      "drawn_count": 42,
+      "stated_count": 41,
+      "drawn_count": 41,
       "match": true,
       "names": [
         "D. R. Heath-Brown",
@@ -170,7 +170,6 @@
         "Alexander K. Zvonkin",
         "Gérald Tenenbaum",
         "James Maynard",
-        "George Greaves",
         "Kaisa Matomäki",
         "András Sárközy",
         "Joni Teräväinen",
@@ -209,8 +208,8 @@
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 17,
-      "drawn_count": 17,
+      "stated_count": 18,
+      "drawn_count": 18,
       "match": true,
       "names": [
         "Stephan Baier",
@@ -229,7 +228,8 @@
         "G. K. Viswanadham",
         "Yuchen Ding",
         "Hourong Qin",
-        "Timothy Foo"
+        "Timothy Foo",
+        "Habibur Rahaman"
       ],
       "unplaced_no_geocode_in_region": 1
     },
@@ -248,8 +248,8 @@
     "verified:2026-06-15(Claude,web; main campus)": 3,
     "legacy_gb_cache": 67,
     "https://openalex.org/I197681013:mgpschool2026-07-04": 1,
-    "verified:2026-06-20(Claude,web)": 7,
-    "openalex": 11,
+    "verified:2026-06-20(Claude,web)": 8,
+    "openalex": 10,
     "https://openalex.org/I161346416:mgpschool2026-07-04": 1,
     "verified:web (Claude,2026-07-11)": 1
   }
