@@ -5,15 +5,15 @@
   "n_unplaced_no_geocode": 9,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#18 Victor Volfson [-]",
-    "#75 Stanley Yao Xiao [University of Northern British Columbia]",
-    "#79 A. J. Irving [-]",
-    "#81 Shenggang Xie [-]",
-    "#86 Anitha Srinivasan [Saint Louis University Madrid]",
-    "#88 Daniel Loughran [University of Bath]",
-    "#89 Víctor Julio Ramírez Viñas [Simon Bolivar University]",
-    "#96 Stéphane R. Louboutin [Aix-Marseille University]",
-    "#100 Fernando Chamizo [Universidad Autónoma de Madrid]"
+    "#71 Stanley Yao Xiao [University of Northern British Columbia]",
+    "#75 A. J. Irving [-]",
+    "#77 Shenggang Xie [-]",
+    "#82 Anitha Srinivasan [Saint Louis University Madrid]",
+    "#84 Daniel Loughran [University of Bath]",
+    "#85 Víctor Julio Ramírez Viñas [Simon Bolivar University]",
+    "#92 Stéphane R. Louboutin [Aix-Marseille University]",
+    "#96 Fernando Chamizo [Universidad Autónoma de Madrid]",
+    "#99 Alisa Sedunova [Purdue University]"
   ],
   "maps": [
     {
@@ -23,7 +23,6 @@
       "match": true,
       "names": [
         "Henryk Iwaniec",
-        "Florian Luca",
         "John B. Friedlander",
         "D. R. Heath-Brown",
         "M. Ram Murty",
@@ -40,7 +39,6 @@
         "Runbo Li",
         "Jie Wu",
         "Alexander K. Zvonkin",
-        "Richard A. Mollin",
         "Gérald Tenenbaum",
         "R. C. Vaughan",
         "James Maynard",
@@ -58,7 +56,6 @@
         "Emmanuel Kowalski",
         "Imre Kátai",
         "Angel Kumchev",
-        "Dieter Wolke",
         "Doychin Tolev",
         "Jörg Brüdern",
         "Hugh Lowell Montgomery",
@@ -112,14 +109,17 @@
         "Alex Gamburd",
         "Eira J. Scourfield",
         "Hourong Qin",
-        "Timothy Foo"
+        "Timothy Foo",
+        "Kostadinka Lapkova",
+        "Marc Munsch",
+        "Nick Rome"
       ],
       "unplaced_no_geocode_in_region": 9
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 32,
-      "drawn_count": 32,
+      "stated_count": 31,
+      "drawn_count": 31,
       "match": true,
       "names": [
         "Henryk Iwaniec",
@@ -130,7 +130,6 @@
         "Andrew Granville",
         "Peter D. T. A. Elliott",
         "Runbo Li",
-        "Richard A. Mollin",
         "R. C. Vaughan",
         "Stephan Ramon Garcia",
         "Kevin Ford",
@@ -155,12 +154,12 @@
         "Maksym Radziwiłł",
         "Alex Gamburd"
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 2
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 40,
-      "drawn_count": 40,
+      "stated_count": 42,
+      "drawn_count": 42,
       "match": true,
       "names": [
         "D. R. Heath-Brown",
@@ -178,7 +177,6 @@
         "Jean‐Marc Deshouillers",
         "Emmanuel Kowalski",
         "Imre Kátai",
-        "Dieter Wolke",
         "Doychin Tolev",
         "Jörg Brüdern",
         "Sergey Konyagin",
@@ -202,9 +200,12 @@
         "L. Hajdu",
         "Emre Alkan",
         "Lasse Grimmelt",
-        "Eira J. Scourfield"
+        "Eira J. Scourfield",
+        "Kostadinka Lapkova",
+        "Marc Munsch",
+        "Nick Rome"
       ],
-      "unplaced_no_geocode_in_region": 7
+      "unplaced_no_geocode_in_region": 6
     },
     {
       "file": "13_top100_asia.png",
@@ -234,11 +235,10 @@
     },
     {
       "file": "14_top100_other.png",
-      "stated_count": 2,
-      "drawn_count": 2,
+      "stated_count": 1,
+      "drawn_count": 1,
       "match": true,
       "names": [
-        "Florian Luca",
         "Tamar Ziegler"
       ],
       "unplaced_no_geocode_in_region": 0
@@ -246,11 +246,10 @@
   ],
   "geocode_sources": {
     "verified:2026-06-15(Claude,web; main campus)": 3,
-    "legacy_gb_cache": 65,
+    "legacy_gb_cache": 67,
     "https://openalex.org/I197681013:mgpschool2026-07-04": 1,
     "verified:2026-06-20(Claude,web)": 7,
-    "openalex": 12,
-    "manual:wikipedia-coords 2026-06-19": 1,
+    "openalex": 11,
     "https://openalex.org/I161346416:mgpschool2026-07-04": 1,
     "verified:web (Claude,2026-07-11)": 1
   }
