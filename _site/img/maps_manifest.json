@@ -1,19 +1,18 @@
 {
   "site": "n2p1",
-  "n_top": 100,
+  "n_top": 99,
   "n_placed": 91,
-  "n_unplaced_no_geocode": 9,
+  "n_unplaced_no_geocode": 8,
   "n_unplaced_no_institution": 0,
   "unplaced": [
-    "#70 Stanley Yao Xiao [University of Northern British Columbia]",
-    "#74 A. J. Irving [-]",
-    "#76 Shenggang Xie [-]",
-    "#81 Anitha Srinivasan [Saint Louis University Madrid]",
-    "#83 Daniel Loughran [University of Bath]",
-    "#84 Víctor Julio Ramírez Viñas [Simon Bolivar University]",
-    "#91 Stéphane R. Louboutin [Aix-Marseille University]",
-    "#95 Fernando Chamizo [Universidad Autónoma de Madrid]",
-    "#98 Alisa Sedunova [Purdue University]"
+    "#69 Stanley Yao Xiao [University of Northern British Columbia]",
+    "#73 A. J. Irving [-]",
+    "#80 Anitha Srinivasan [Saint Louis University Madrid]",
+    "#82 Daniel Loughran [University of Bath]",
+    "#83 Víctor Julio Ramírez Viñas [Simon Bolivar University]",
+    "#90 Stéphane R. Louboutin [Aix-Marseille University]",
+    "#94 Fernando Chamizo [Universidad Autónoma de Madrid]",
+    "#97 Alisa Sedunova [Purdue University]"
   ],
   "maps": [
     {
@@ -71,7 +70,6 @@
         "Cameron L. Stewart",
         "S. Salerno",
         "Philippe Michel",
-        "B. V. Levin",
         "Michael Filaseta",
         "S. W. Graham",
         "K. Soundararajan",
@@ -95,6 +93,7 @@
         "Régis de la Bretèche",
         "M. Nair",
         "Timothy S. Trudgian",
+        "Shenggang Xie",
         "Xiaodong Lü",
         "Tamar Ziegler",
         "L. Hajdu",
@@ -114,7 +113,7 @@
         "Nick Rome",
         "Habibur Rahaman"
       ],
-      "unplaced_no_geocode_in_region": 9
+      "unplaced_no_geocode_in_region": 8
     },
     {
       "file": "11_top100_north_america.png",
@@ -158,8 +157,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 41,
-      "drawn_count": 41,
+      "stated_count": 40,
+      "drawn_count": 40,
       "match": true,
       "names": [
         "D. R. Heath-Brown",
@@ -186,7 +185,6 @@
         "H. A. Helfgott",
         "S. Salerno",
         "Philippe Michel",
-        "B. V. Levin",
         "Jori Merikoski",
         "Alberto Perelli",
         "Karl-Heinz Indlekofer",
@@ -208,8 +206,8 @@
     },
     {
       "file": "13_top100_asia.png",
-      "stated_count": 18,
-      "drawn_count": 18,
+      "stated_count": 19,
+      "drawn_count": 19,
       "match": true,
       "names": [
         "Stephan Baier",
@@ -224,6 +222,7 @@
         "Lilu Zhao",
         "Yong-Gao Chen",
         "Timothy S. Trudgian",
+        "Shenggang Xie",
         "Xiaodong Lü",
         "G. K. Viswanadham",
         "Yuchen Ding",
@@ -231,7 +230,7 @@
         "Timothy Foo",
         "Habibur Rahaman"
       ],
-      "unplaced_no_geocode_in_region": 1
+      "unplaced_no_geocode_in_region": 0
     },
     {
       "file": "14_top100_other.png",
@@ -248,8 +247,8 @@
     "verified:2026-06-15(Claude,web; main campus)": 3,
     "legacy_gb_cache": 67,
     "https://openalex.org/I197681013:mgpschool2026-07-04": 1,
-    "verified:2026-06-20(Claude,web)": 8,
-    "openalex": 10,
+    "verified:2026-06-20(Claude,web)": 7,
+    "openalex": 11,
     "https://openalex.org/I161346416:mgpschool2026-07-04": 1,
     "verified:web (Claude,2026-07-11)": 1
   }
