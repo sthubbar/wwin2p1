@@ -1,25 +1,27 @@
 {
   "site": "n2p1",
   "n_top": 99,
-  "n_placed": 90,
-  "n_unplaced_no_geocode": 9,
+  "n_placed": 88,
+  "n_unplaced_no_geocode": 11,
   "n_unplaced_no_institution": 0,
   "unplaced": [
     "#15 Runbo Li [The High School Affiliated to Renmin University of China]",
     "#69 Stanley Yao Xiao [University of Northern British Columbia]",
+    "#72 M. Nair [-]",
     "#73 A. J. Irving [-]",
     "#80 Anitha Srinivasan [Saint Louis University Madrid]",
     "#82 Daniel Loughran [University of Bath]",
     "#83 Víctor Julio Ramírez Viñas [Simon Bolivar University]",
     "#90 Stéphane R. Louboutin [Aix-Marseille University]",
     "#94 Fernando Chamizo [Universidad Autónoma de Madrid]",
+    "#95 Kostadinka Lapkova [-]",
     "#97 Alisa Sedunova [Purdue University]"
   ],
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 90,
-      "drawn_count": 90,
+      "stated_count": 88,
+      "drawn_count": 88,
       "match": true,
       "names": [
         "Henryk Iwaniec",
@@ -91,7 +93,6 @@
         "Imre Z. Ruzsa",
         "P. Moree",
         "Régis de la Bretèche",
-        "M. Nair",
         "Timothy S. Trudgian",
         "Shenggang Xie",
         "Xiaodong Lü",
@@ -108,12 +109,11 @@
         "Eira J. Scourfield",
         "Hourong Qin",
         "Timothy Foo",
-        "Kostadinka Lapkova",
         "Marc Munsch",
         "Nick Rome",
         "Habibur Rahaman"
       ],
-      "unplaced_no_geocode_in_region": 9
+      "unplaced_no_geocode_in_region": 11
     },
     {
       "file": "11_top100_north_america.png",
@@ -156,8 +156,8 @@
     },
     {
       "file": "12_top100_europe.png",
-      "stated_count": 40,
-      "drawn_count": 40,
+      "stated_count": 38,
+      "drawn_count": 38,
       "match": true,
       "names": [
         "D. R. Heath-Brown",
@@ -192,16 +192,14 @@
         "Imre Z. Ruzsa",
         "P. Moree",
         "Régis de la Bretèche",
-        "M. Nair",
         "L. Hajdu",
         "Emre Alkan",
         "Lasse Grimmelt",
         "Eira J. Scourfield",
-        "Kostadinka Lapkova",
         "Marc Munsch",
         "Nick Rome"
       ],
-      "unplaced_no_geocode_in_region": 6
+      "unplaced_no_geocode_in_region": 8
     },
     {
       "file": "13_top100_asia.png",
@@ -244,7 +242,7 @@
   ],
   "geocode_sources": {
     "verified:2026-06-15(Claude,web; main campus)": 3,
-    "legacy_gb_cache": 66,
+    "legacy_gb_cache": 64,
     "https://openalex.org/I197681013:mgpschool2026-07-04": 1,
     "verified:2026-06-20(Claude,web)": 7,
     "openalex": 11,
