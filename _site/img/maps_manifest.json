@@ -1,10 +1,11 @@
 {
   "site": "n2p1",
   "n_top": 99,
-  "n_placed": 91,
-  "n_unplaced_no_geocode": 8,
+  "n_placed": 90,
+  "n_unplaced_no_geocode": 9,
   "n_unplaced_no_institution": 0,
   "unplaced": [
+    "#15 Runbo Li [The High School Affiliated to Renmin University of China]",
     "#69 Stanley Yao Xiao [University of Northern British Columbia]",
     "#73 A. J. Irving [-]",
     "#80 Anitha Srinivasan [Saint Louis University Madrid]",
@@ -17,8 +18,8 @@
   "maps": [
     {
       "file": "10_top100_overview.png",
-      "stated_count": 91,
-      "drawn_count": 91,
+      "stated_count": 90,
+      "drawn_count": 90,
       "match": true,
       "names": [
         "Henryk Iwaniec",
@@ -35,7 +36,6 @@
         "Paul Pollack",
         "Andrew Granville",
         "Peter D. T. A. Elliott",
-        "Runbo Li",
         "Jie Wu",
         "Alexander K. Zvonkin",
         "Gérald Tenenbaum",
@@ -113,12 +113,12 @@
         "Nick Rome",
         "Habibur Rahaman"
       ],
-      "unplaced_no_geocode_in_region": 8
+      "unplaced_no_geocode_in_region": 9
     },
     {
       "file": "11_top100_north_america.png",
-      "stated_count": 31,
-      "drawn_count": 31,
+      "stated_count": 30,
+      "drawn_count": 30,
       "match": true,
       "names": [
         "Henryk Iwaniec",
@@ -128,7 +128,6 @@
         "Paul Pollack",
         "Andrew Granville",
         "Peter D. T. A. Elliott",
-        "Runbo Li",
         "R. C. Vaughan",
         "Stephan Ramon Garcia",
         "Kevin Ford",
@@ -230,7 +229,7 @@
         "Timothy Foo",
         "Habibur Rahaman"
       ],
-      "unplaced_no_geocode_in_region": 0
+      "unplaced_no_geocode_in_region": 1
     },
     {
       "file": "14_top100_other.png",
@@ -245,7 +244,7 @@
   ],
   "geocode_sources": {
     "verified:2026-06-15(Claude,web; main campus)": 3,
-    "legacy_gb_cache": 67,
+    "legacy_gb_cache": 66,
     "https://openalex.org/I197681013:mgpschool2026-07-04": 1,
     "verified:2026-06-20(Claude,web)": 7,
     "openalex": 11,
