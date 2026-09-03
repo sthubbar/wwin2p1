@@ -242,10 +242,11 @@
   ],
   "geocode_sources": {
     "verified:2026-06-15(Claude,web; main campus)": 3,
-    "legacy_gb_cache": 63,
+    "legacy_gb_cache": 62,
     "openalex": 13,
     "https://openalex.org/I197681013:mgpschool2026-07-04": 1,
     "verified:2026-06-20(Claude,web)": 7,
+    "verified:web (Claude,2026-09-03) IMSc Chennai": 1,
     "verified:web (Claude,2026-07-11)": 1
   }
 }
