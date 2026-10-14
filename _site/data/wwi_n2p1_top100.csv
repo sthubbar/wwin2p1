@@ -54,7 +54,7 @@ rank,name,name_ascii,institution,country,arxiv_rank,openalex_rank,zbmath_rank,ar
 53,S. W. Graham,S. W. Graham,Central Michigan University,US,,,76,,,,,15,openalex,2015,2015,,,,
 54,K. Soundararajan,K. Soundararajan,Stanford University,US,,,77,,,,,33,openalex,2021,2021,,,,
 55,Wenguang Zhai,Wenguang Zhai,China University of Mining and Technology (Beijing),CN,,,78,,,,,13,openalex,2012,2012,,,,
-56,Ping Xi,Ping Xi,Xi'an Jiaotong University,CN,,,79,,,,,9,openalex,2017,2019,,,,
+56,Ping Xi,Ping Xi,Xi'an Jiaotong University,CN,,,79,,,,,8,people_csv,2017,2019,,,,
 57,Jori Merikoski,Jori Merikoski,University of Helsinki,FI,,,80,1,1,1,,2,openalex,2020,2025,,,,
 58,Jean-Marie De Koninck,Jean-Marie De Koninck,Université Laval,CA,,,88,,,,,10,openalex,2011,2018,,,,
 59,Alexandru Zaharescu,Alexandru Zaharescu,University of Illinois Urbana-Champaign,US,,,97,,,,,24,openalex,2020,2020,,,,
